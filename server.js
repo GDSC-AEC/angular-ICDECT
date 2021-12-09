@@ -10,10 +10,18 @@ const express = require('express');
 const app = express();
 
 app.use(requireHTTPS);
-app.use(express.static('./dist/icaec'));
+
+
+if (process.env.NODE_ENV === 'production') {
+    app.use(express.static('./dist/icaec'));
+}
+
 
 app.get('/*', (req, res) =>
-    res.sendFile('index.html', {root: '/dist/icaec/'}),
-);
+    {
+        res.sendFile(path.join(__dirname, 'client/build', 'index.html'));
+    }
+    );
 
 app.listen(process.env.PORT || 8080);
+
