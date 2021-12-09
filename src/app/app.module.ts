@@ -8,6 +8,8 @@ import { HomeComponent } from './home/home.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './imports/material.module';
+import { AboutComponent } from './about/about.component';
+import { CallForPapersComponent } from './call-for-papers/call-for-papers.component';
 
 
 @NgModule({
@@ -15,7 +17,9 @@ import { MaterialModule } from './imports/material.module';
     AppComponent,
     TeamComponent,
     HomeComponent,
-    GalleryComponent
+    GalleryComponent,
+    AboutComponent,
+    CallForPapersComponent
   ],
   imports: [
     BrowserModule,
