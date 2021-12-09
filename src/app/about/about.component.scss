@@ -88,3 +88,33 @@
 	  line-height: 24px;
 	}
   }
+
+.heading_department{
+	font-size: 3rem;
+    font-weight: 500;
+	color:#333;
+}
+.department_para{
+	line-height: 1.5rem;
+    color: rgba(0,0,0,0.7);
+    text-align: justify;
+}
+hr{
+	border:3px solid #ffc107;
+}
+h4.text-divider.text-center {
+    margin: 0;
+}
+@media screen and (max-width:420px) {
+	.heading_department{
+		font-size: 2.5rem;
+		line-height: 2rem;
+	}
+	.department_para{
+		padding:0 1rem;
+		line-height: 1.4rem;
+	}
+}
+.span_department{
+	color:#f7af23;
+}
