@@ -10,6 +10,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './imports/material.module';
 import { AboutComponent } from './about/about.component';
 import { CallForPapersComponent } from './call-for-papers/call-for-papers.component';
+import { RegisterComponent } from './register/register.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { CallForPapersComponent } from './call-for-papers/call-for-papers.compon
     HomeComponent,
     GalleryComponent,
     AboutComponent,
-    CallForPapersComponent
+    CallForPapersComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
