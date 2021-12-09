@@ -360,9 +360,10 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/aditya.jpeg") top center;
   background-size: cover;
   position: relative;
+  /* object-fit: cover; */
 }
 #hero:before {
   content: "";
@@ -380,11 +381,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero h1 {
   margin: 0;
-  font-size: 56px;
+  font-size: 4rem;
   font-weight: 700;
   line-height: 64px;
   color: #fff;
   font-family: "Poppins", sans-serif;
+  margin: 0 0 1.5rem 0;
 }
 #hero h1 span {
   color: #ffc451;
@@ -434,11 +436,12 @@ h1, h2, h3, h4, h5, h6 {
     height: auto;
   }
   #hero h1 {
-    font-size: 28px;
+    font-size: 2.5rem;
     line-height: 36px;
+    margin:0 0 2rem 0;
   }
   #hero h2 {
-    font-size: 20px;
+    font-size: 1.5rem!important;
     line-height: 24px;
   }
 }
@@ -649,6 +652,7 @@ section {
   margin-top: 10px;
   border: 2px solid #fff;
   color: #fff;
+  
 }
 .cta .cta-btn:hover {
   background: #ffc451;
@@ -666,7 +670,7 @@ section {
   border-radius: 4px;
   transition: 0.5s;
   margin-top: 10px;
-  border: 2px solid #fff;
+  border: 2px solid #ffc451;
   color: #fff;
 }
 .main .cta-btn:hover {
@@ -1384,4 +1388,29 @@ section {
   text-align: center;
   font-size: 13px;
   color: #fff;
+}
+sup{
+  color: #ffc451;
+}
+li.download {
+  font-size: 1.9rem;
+  line-height: 4rem;
+}
+p.download_content {
+  color: rgba(70,70,70,0.4);
+  cursor: pointer;
+}
+a.download_link {
+  color: rgba(255, 196, 81,0.9);
+  cursor: not-allowed;
+}
+
+@media screen and (max-width:450px) {
+  li.download {
+    font-size: 1.1rem;
+    line-height: 2.2rem;
+}
+.download_div{
+  margin:0 0 0 1rem;
+}
 }
