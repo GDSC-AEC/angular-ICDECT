@@ -894,6 +894,11 @@ section {
   background-size: cover;
   min-height: 400px;
 }
+@media screen and (max-width:600px) {
+  .counts .image{
+    display: none;
+  }
+}
 @media (max-width: 991px) {
   .counts .image {
     text-align: center;
@@ -1403,6 +1408,7 @@ p.download_content {
 a.download_link {
   color: rgba(255, 196, 81,0.9);
   cursor: not-allowed;
+  pointer-events: none;
 }
 
 @media screen and (max-width:450px) {
@@ -1412,5 +1418,16 @@ a.download_link {
 }
 .download_div{
   margin:0 0 0 1rem;
+}
+}
+@media screen and (max-width:700px) {
+  .counts .image{
+    display: none!important;
+  }
+  .content.d-flex.flex-column.justify-content-center {
+    padding: 0px;
+}
+.section-title {
+  padding-bottom: 1rem;
 }
 }
