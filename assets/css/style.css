@@ -1416,9 +1416,11 @@ a.download_link {
     font-size: 1.1rem;
     line-height: 2.2rem;
 }
+
 .download_div{
-  margin:0 0 0 1rem;
+  margin:0 0 0 0rem;
 }
+
 }
 @media screen and (max-width:700px) {
   .counts .image{
