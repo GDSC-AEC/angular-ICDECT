@@ -184,10 +184,10 @@ a:hover{
   transition: all 0.3s ease-in-out;
 }
 
-.team-member figure:hover figcaption {
+figcaption {
   visibility: visible;
-  color: #fff;
-  background: rgba(230, 78, 62, 0.9);
+  color: #000;
+  background: rgba(255, 196, 81, 1);
   /* Primary color, can be changed via colors.css */
   
   height: 100%;
