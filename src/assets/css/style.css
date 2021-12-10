@@ -1406,7 +1406,7 @@ sup{
   color: #ffc451;
 }
 li.download {
-  font-size: 1.9rem;
+  font-size: 1.5rem;
   line-height: 4rem;
 }
 p.download_content {
@@ -1421,7 +1421,7 @@ a.download_link {
 
 @media screen and (max-width:450px) {
   li.download {
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     line-height: 2.2rem;
 }
 .download_div{
