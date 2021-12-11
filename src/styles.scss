@@ -3,6 +3,7 @@
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
+
 // MediaQuery Responsiveness ----
 
 /* Smartphones (portrait and landscape) ----------- */
@@ -14,14 +15,20 @@ and (max-device-width : 480px) {
 
 /* Smartphones (landscape) ----------- */
 @media only screen 
-and (min-width : 321px) {
+and (max-width : 321px) {
 /* Styles */
+.navhide{
+  display: none;
+}
 }
 
 /* Smartphones (portrait) ----------- */
 @media only screen 
 and (max-width : 320px) {
 /* Styles */
+.navhide{
+  display: none;
+}
 }
 
 /* iPads (portrait and landscape) ----------- */

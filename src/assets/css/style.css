@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #444444;
+  color: #000;
 }
 
 a {
@@ -130,7 +130,7 @@ h1, h2, h3, h4, h5, h6 {
   background: rgba(0, 0, 0, 0.8);
 }
 #header .logo {
-  font-size: 32px;
+  font-size: 20px;
   margin: 0;
   padding: 0;
   line-height: 1;
@@ -375,7 +375,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.747);
+  background: rgba(0, 0, 0, 0.452);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -635,8 +635,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/cta-bg.jpg") fixed center center;
-  background-size: cover;
+
   padding: 60px 0;
 }
 .cta h3 {
@@ -684,6 +683,7 @@ section {
   background: #ffc451;
   border-color: #ffc451;
   color: #151515;
+  cursor: pointer;
 }
 /*--------------------------------------------------------------
 # Portfolio
