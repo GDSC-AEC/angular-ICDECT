@@ -7,26 +7,40 @@ import { RegisterComponent } from './register/register.component';
 import { TeamComponent } from './team/team.component';
 
 const routes: Routes = [
+  
   {
-    path:'',
-    component: HomeComponent
-  },
-  {
-    path:'team',
-    component: TeamComponent
-  },
-  {
-    path: 'gallery',
-    component: GalleryComponent
-  },
-  {
-    path:'about',
-    component:AboutComponent
-  },
-  {
-    path:'register',
-    component:RegisterComponent
+    path: '',
+    children: 
+    [
+      {
+        path: '',
+        component: HomeComponent,
+        data: { animationState: 'One' }
+      },
+      {
+        path: 'about', 
+        component: AboutComponent,
+        data: { animationState: 'Two' },
+      children: []
+      },
+      {
+        path: 'team', 
+        component: TeamComponent,
+        data: { animationState: 'Three' },
+      },
+      {
+        path: 'gallery',
+        component: GalleryComponent,
+        data: { animationState: 'Four' },
+      },
+      {
+        path:'register',
+        component:RegisterComponent,
+        data: { animationState: 'Five' },
+      }
+    ]
   }
+
 ];
 
 @NgModule({

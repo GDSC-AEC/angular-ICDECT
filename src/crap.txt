@@ -1,0 +1,38 @@
+  <div class="container d-flex align-items-center justify-content-lg-between">
+
+    <h1 class="logo me-auto me-lg-0">
+
+      <a href="">
+        <span>IC</span>DECT-22
+      </a>
+
+    </h1>
+
+    <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+
+    <nav id="navbar" class="navbar order-last order-lg-0">
+      <ul>
+        <li><a class="nav-link scrollto" href="#">Home</a></li>
+        <li class="dropdown"><a href=""><span>About</span> <i class="bi bi-chevron-down"></i></a>
+          <ul>
+            <li><a href="#about">About Conference</a></li>
+            <li><a href="about/#institute">About Institute</a></li>
+            <li><a href="about/#department">About Department</a></li>
+          </ul>
+        </li>
+        <li><a class="nav-link scrollto" href="#call_for_papers">Call For Papers</a></li>
+        <li><a class="nav-link scrollto " href="#submissions">Submissions</a></li>
+        <li><a class="nav-link scrollto " href="#dates">Dates</a></li>
+        <li><a class="nav-link scrollto" href="#team">Team</a></li>
+        <li><a class="nav-link scrollto " href="gallery">Gallery</a></li>
+        <li><a class="nav-link scrollto " href="#venue">Venue</a></li>
+        <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+      </ul>
+      <i class="bi bi-list mobile-nav-toggle"></i>
+    </nav>
+    <!-- <a href="index.html" class="logo me-auto me-lg-0 navbar-brand2 navhide"><img height="35px" src="assets/img_more/LOGO3.png" alt="" class="img-fluid"></a> -->
+
+    <!-- <div class=""><img src="assets/img_more/LOGO3.png" alt="logo-img" ></div> -->
+    
+
+  </div>

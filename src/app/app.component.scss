@@ -2,3 +2,26 @@
     max-width: 100%;
     overflow-x: hidden;
 }
+
+.spacer{
+    flex: .5 .5 auto;
+}
+
+.NavBar{
+    background-color: rgba(0, 0, 0, 0.105);
+    
+}
+
+// .nav-transparent{
+//     background-color: transparent;
+// }
+// .nav-dark{
+//     background-color: rgba(0,0,0,0.8);
+// }
+.mat-button{
+    color: white;
+    // font-weight: bold;
+    font-size: 1rem;
+    
+}
+

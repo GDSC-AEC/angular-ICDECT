@@ -18,7 +18,7 @@
   <!-- Our team Section -->
   <section id="team" class="team content-section">
       <div class="container">
-        <div class="row text-center">
+        <div class="row">
     
           <div class="container">
             <div class="row">
@@ -253,7 +253,7 @@
   
   
                           <!-- 1 -->
-                          <div class="accordion-item">
+                          <div class="accordion-item text-center" >
                             <h2 class="accordion-header" id="headingOne">
                                 <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseOne">Website & Publication Committee</button>                     
                             </h2>
@@ -347,18 +347,8 @@
                               </h2>
                               <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
                                   <div class="card-body">
-                                      <ul class="list-group list-group-flush">
-                                          <li class="list-group-item" role="listitem">Dr. R. Srinivas, Prof. in CSE &amp; Dean (Statutory Bodies), Aditya Engineering College (A)</li>
-                                          <li class="list-group-item" role="listitem">Mr. M. Raja Babu, HOD-IT, Aditya Engineering College (A)</li>
-                                          <li class="list-group-item" role="listitem">Dr. G. Sridevi, HOD-ECE, Aditya Engineering College (A)</li>
-                                          <li class="list-group-item" role="listitem">Mr. V. Satyanarayana, HOD-ECE, Aditya Engineering College (A)</li>
-                                          <li class="list-group-item" role="listitem">Dr. V. Srinivasa Rao, HOD-EEE, Aditya Engineering College (A)</li>
-                                          <li class="list-group-item" role="listitem">Dr. T. Rama Reddy, Professor, Department of CSE, Aditya Engineering College (A)</li>
-                                          <li class="list-group-item" role="listitem">Dr. P. Uday Kumar, Professor, Department of CSE, Aditya Engineering College (A)</li>
-                                          <li class="list-group-item" role="listitem">Dr. M. Kandan, Assoc. Professor, Department of CSE, Aditya Engineering College (A)</li>
-                                          <li class="list-group-item" role="listitem">Dr. M. Vamsi Krishna, Associate Professor, Department of CSE, Aditya Engineering College (A)</li>
-                                          <li class="list-group-item" role="listitem">DR. S. Prasanth Vaidya, Associate Professor, Department of CSE, Aditya Engineering College (A)</li>
-                                          <li class="list-group-item" role="listitem">DR. Mamta Pandey,Associate Professor, Department of CSE, Aditya Engineering College (A)</li>
+                                      <ul class="list-group list-group-flush" *ngFor="let names of Odata; let i=index">
+                                          <li class="list-group-item" role="listitem" *ngIf="i!=0">{{names}}</li>
                                       </ul>
                                   </div>
                               </div>
@@ -370,21 +360,9 @@
                               </h2>
                               <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
                                   <div class="card-body">
-                                      <ul class="list-group list-group-flush">
-                                          <li class="list-group-item" role="listitem">Dr. K.V.S.R. Murthy, Prof. in EEE &amp; Dean (R&amp;D), Aditya Engineering College (A)</li>
-                      <li class="list-group-item" role="listitem">Dr. T. Narendrudu, Prof. in H&amp;BS &amp; Dean (Administration), Aditya Engineering College (A)</li>
-                      <li class="list-group-item" role="listitem">Prof. J. Pavan, Prof. in EEE &amp; Dean (Evaluation), Aditya Engineering College (A)</li>
-                      <li class="list-group-item" role="listitem">Prof. J.D. Venkatesh, Dean (Student Affairs), Aditya Engineering College (A)</li>
-                      <li class="list-group-item" role="listitem">Dr. A. Rama Krishna, Dean, Aditya College of Engineering &amp; Technology</li>
-                      <li class="list-group-item" role="listitem">Dr. P.S.V.V.S. Ravi Kumar, Dean, Aditya College of Engineering</li>
-                      <li class="list-group-item" role="listitem">Dr. M. Anil Kumar, HOD-CSE, Aditya College of Engineering &amp; Technology</li>
-                      <li class="list-group-item" role="listitem">Mr. R.V.V.N. Bheema Rao, HOD-IT, Aditya College of Engineering &amp; Technology</li>
-                      <li class="list-group-item" role="listitem">Dr. G.S.N. Murthy, HOD-CSE, Aditya College of Engineering</li>
-                      <li class="list-group-item" role="listitem">Dr. R.V.V. Krishna, HOD, Dept. of ECE, Aditya College of Engineering &amp; Technology, Surampalem</li>
-                      <li class="list-group-item" role="listitem">Dr. D. Kishore, HOD, Dept. of ECE, Aditya College of Engineering &amp; Technology</li>
-                      <li class="list-group-item" role="listitem">Dr. G. Rama Krishna, HOD-ECE, Aditya College of Engineering</li>
-                      <li class="list-group-item" role="listitem">Dr. K. Anand Kumar, Professor, Aditya Engineering College (A)</li>
-                      </ul>
+                                    <ul class="list-group list-group-flush" *ngFor="let names of Sdata; let i=index">
+                                      <li class="list-group-item" role="listitem" *ngIf="i!=0">{{names}}</li>
+                                  </ul>
                                   </div>
                               </div>
                           </div>
@@ -395,21 +373,9 @@
                               </h2>
                               <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
                                   <div class="card-body">
-                                      <ul class="list-group list-group-flush">
-                                          <li class="list-group-item" role="listitem">Dr. K.V.S.R. Murthy, Prof. in EEE &amp; Dean (R&amp;D), Aditya Engineering College (A)</li>
-                                          <li class="list-group-item" role="listitem">Dr. T. Narendrudu, Prof. in H&amp;BS &amp; Dean (Administration), Aditya Engineering College (A)</li>
-                                          <li class="list-group-item" role="listitem">Prof. J. Pavan, Prof. in EEE &amp; Dean (Evaluation), Aditya Engineering College (A)</li>
-                                          <li class="list-group-item" role="listitem">Prof. J.D. Venkatesh, Dean (Student Affairs), Aditya Engineering College (A)</li>
-                                          <li class="list-group-item" role="listitem">Dr. A. Rama Krishna, Dean, Aditya College of Engineering &amp; Technology</li>
-                                          <li class="list-group-item" role="listitem">Dr. P.S.V.V.S. Ravi Kumar, Dean, Aditya College of Engineering</li>
-                                          <li class="list-group-item" role="listitem">Dr. M. Anil Kumar, HOD-CSE, Aditya College of Engineering &amp; Technology</li>
-                                          <li class="list-group-item" role="listitem">Mr. R.V.V.N. Bheema Rao, HOD-IT, Aditya College of Engineering &amp; Technology</li>
-                                          <li class="list-group-item" role="listitem">Dr. G.S.N. Murthy, HOD-CSE, Aditya College of Engineering</li>
-                                          <li class="list-group-item" role="listitem">Dr. R.V.V. Krishna, HOD, Dept. of ECE, Aditya College of Engineering &amp; Technology, Surampalem</li>
-                                          <li class="list-group-item" role="listitem">Dr. D. Kishore, HOD, Dept. of ECE, Aditya College of Engineering &amp; Technology</li>
-                                          <li class="list-group-item" role="listitem">Dr. G. Rama Krishna, HOD-ECE, Aditya College of Engineering</li>
-                                          <li class="list-group-item" role="listitem">Dr. K. Anand Kumar, Professor, Aditya Engineering College (A)</li>
-                                      </ul>
+                                    <ul class="list-group list-group-flush" *ngFor="let names of Idata; let i=index">
+                                      <li class="list-group-item" role="listitem" *ngIf="i!=0">{{names}}</li>
+                                   </ul>
                                   </div>
                               </div>
                           </div>
@@ -420,85 +386,9 @@
                               </h2>
                               <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
                                   <div class="card-body">
-                                      <ul class="list-group list-group-flush">
-                                          <li class="list-group-item" role="listitem">Prof. S. S. Bhakar, Vice Chancellor, ITM University, Gwalior</li>
-                                          <li class="list-group-item" role="listitem">Prof. Pratap Jyoti Handique, Vice Chancellor, Assam Science and Technology University</li>
-                                          <li class="list-group-item" role="listitem">Prof.(Dr.) Navin Sheth, Vice Chancellor, Gujarat Technological University</li>
-                                          <li class="list-group-item" role="listitem">Prof. R. Shridhar, Vice Chancellor, Kalinga University, Raipur (C.G.)</li>
-                                          <li class="list-group-item" role="listitem">Prof. Neeraj Gupta, Vice Chancellor (i/c), Central University of Rajasthan, Rajasthan</li>
-                                          <li class="list-group-item" role="listitem">Professor (Dr.) I K Bhat, Vice Chancellor, Manav Rachna University, Faridabad</li>
-                                          <li class="list-group-item" role="listitem">Prof. (Dr) Anand Mahalwar, Vice Chancellor, ISBM University, CG</li>
-                                          <li class="list-group-item" role="listitem">Prof. (Dr.) K P Yadav,Vice Chancellor, MATS University, Raipur</li>
-                                          <li class="list-group-item" role="listitem">Prof. Abhay Kumar, Vice Chancellor, Pratap University, Jaipur, Rajasthan</li>
-                                          <li class="list-group-item" role="listitem">Dr. B.K.Mohanty, Principal, Sambalpur university institute of information technology, Burla, Odisha</li>
-                                          <li class="list-group-item" role="listitem">Dr. Gaurav Trivedi Associate Professor IIT Guwahati</li>
-                                          <li class="list-group-item" role="listitem">Prof. Shaik Rafi Ahamed Professor, IIT Guwahati</li>
-                                          <li class="list-group-item" role="listitem">Dr. Deepak Joshi Assistant Professor IIT Delhi</li>
-                                          <li class="list-group-item" role="listitem">Dr. Anil Kumar Vuppala Professor, IIIT Hyderabad</li>
-                                          <li class="list-group-item" role="listitem">Dr. K V Sridhar, Associate Professor NIT Warangal</li>
-                                          <li class="list-group-item" role="listitem">Dr. Taimoor Khan, Assistant Professor, NIT Silchar</li>
-                                          <li class="list-group-item" role="listitem">Dr. Dhandapani Vaithiyanathan, Assistant Professor, ECE, NIT Delhi</li>
-                                          <li class="list-group-item" role="listitem">Dr. Kiran Kumar Gurrala, Assistant Professor &amp; HoD, ECE, NIT Andhra Pradesh</li>
-                                          <li class="list-group-item" role="listitem">Dr. Vijaya Bhaskar Semwal Assistant Professor CSE MNIT Bhopal</li>
-                                          <li class="list-group-item" role="listitem">Dr. DVLN Somayajulu, Professor (HAG), Department of CSE, NIT, Warangal, Telangana</li>
-                                          <li class="list-group-item" role="listitem">Prof. Ketan Kotecha, Director, Symbiosis Institute of Technology</li>
-                                          <li class="list-group-item" role="listitem">Dr. Saidi Reddy Parne, Associate professor &amp; Dean ( Research and Consultancy), NIT Goa</li>
-                                          <li class="list-group-item" role="listitem">Dr. Shubhankar Majumdar, Assistant Professor, National Institute of Technology Meghalaya, Shillong</li>
-                                          <li class="list-group-item" role="listitem">Dr. Pankaj Kumar Pal, Assistant Professor, National Institute of Technology Utarakhand</li>
-                                          <li class="list-group-item" role="listitem">Prof. J V R Murthy, Director Incubation and IPR, Professor, UCEK, JNTUK, Kakinada, Andhra Pradesh.</li>
-                                          <li class="list-group-item" role="listitem">Dr.T.V.S. Gireendranath, Project Manager, Cipher Cloud India.</li>
-                                          <li class="list-group-item" role="listitem">Dr.N.P. Gopalan, Department of computer applications, NIT-Tiruchurapalli.</li>
-                                          <li class="list-group-item" role="listitem">Dr.R. Sireesha, HOD,Department of CSE, GITAM Deemed to be university -Visakhapatnam.</li>
-                                          <li class="list-group-item" role="listitem">Dr.N.Nagamalleswara Rao,Professor,Department of IT,RVR&amp;JC college of engineering-Guntur.</li>
-                                          <li class="list-group-item" role="listitem">Dr A.YesuBabu,Professor&amp;HOD-CSE,CR Reddy College of engineering Eluru.</li>
-                                          <li class="list-group-item" role="listitem">Dr P.S.Avadhani,Retd Professor of Andhra university,Director-IIIT-Agartala.</li>
-                                          <li class="list-group-item" role="listitem">Prof. B.T Krishna Professor JNTUK Kakinada.</li>
-                                          <li class="list-group-item" role="listitem">Dr. S Chandramohan Reddy CE (PG), JNTUA.</li>
-                                          <li class="list-group-item" role="listitem">Prof. N. Balaji Professor JNTUK Kakinada.</li>
-                                          <li class="list-group-item" role="listitem">Dr. Ch Srinivasa Rao Professor, JNTUCE, Vizinagaram.</li>
-                                          <li class="list-group-item" role="listitem">Dr. A Raja Bayanna, Senior Scientist, PRL, Rajasthan.</li>
-                                          <li class="list-group-item" role="listitem">Dr. Krishna Prasad MHM, Professor, UCEK, JNTUK, Kakinada, Andhra Pradesh.</li>
-                                          <li class="list-group-item" role="listitem">Dr. P. Suresh Varma, Professor, Adikavi Nannaya University, Rajamahendravaram, Andhra Pradesh.</li>
-                                          <li class="list-group-item" role="listitem">Dr. L. Sumalatha, Professor&amp; DE, UCEK, JNTUK, Kakinada, Andhra Pradesh</li>
-                                          <li class="list-group-item" role="listitem">Dr. A.S.N. Chakravarthy, CSE, JNTUK UCEV, Vizianagaram</li>
-                                          <li class="list-group-item" role="listitem">Dr. G. Jaya Suma, Professor, JNTUK-University College of Engineering, Vizianagaram, AndhraPradesh</li>
-                                          <li class="list-group-item" role="listitem">Dr. D. Haritha, HOD, UCEK, JNTUK, Kakinada, Andhra Pradesh</li>
-                                          <li class="list-group-item" role="listitem">Dr. K. Ramadevi, JNTUK, UCEK, Kakinada, Andhra Pradesh</li>
-                                          <li class="list-group-item" role="listitem">Dr. K.Venkata Murali Mohan, Principal &amp; Professor, Teegla Krishna Reddy Engineering College,Telangana</li>
-                                          <li class="list-group-item" role="listitem">Dr. V. Srinivas Naresh, Dean R&amp;D, Sri Vasavi Engineering College</li>
-                                          <li class="list-group-item" role="listitem">Dr. V. Jawahar Senthilkumar, Professor, College of Engineering-Guindy, Anna University, Chennai,Tamilnadu</li>
-                                          <li class="list-group-item" role="listitem">Dr. Prakash. M, Professor, Karpagam College of Engineering, Coimbatore, Tamilnadu</li>
-                                          <li class="list-group-item" role="listitem">Dr. V. Tamilselvan, Professor, Karpagam College of Engineering, Coimbatore, Tamilnadu</li>
-                                          <li class="list-group-item" role="listitem">Dr. G. Naga Satish, Professor, BVRIT Hyderabad College of Engineering for Women, Hyderabad</li>
-                                          <li class="list-group-item" role="listitem">Dr. Jose Moses Gummadi, Professor, Malla Reddy Engineering College(A), Hyderabad, Telangana</li>
-                                          <li class="list-group-item" role="listitem">Dr. Krishna Vempati, Professor, TKR College of Engineering and Technology, Hyderabad, Telangana</li>
-                                          <li class="list-group-item" role="listitem">Dr. B.Satyanarayana, Professor, CMR Institute of Technology, Hyderabad, Telangana</li>
-                                          <li class="list-group-item" role="listitem">Dr. Bhagyalaxmi Jena, Sr.Assistant Professor, Silicon Institute of Technology, Bhubaneswar, Orissa</li>
-                                          <li class="list-group-item" role="listitem">Dr. V.Balaji, Founder, Radiance Technology Research Services Private Limited, Coimbatore.</li>
-                                          <li class="list-group-item" role="listitem">Dr. Avinash Rai, Assistant Professor , Department of Electronics &amp; Communication Engineering,University Institute of Technology Rajiv Gandhi Proudyogiki Vishwavidyalaya, M.P</li>
-                                          <li class="list-group-item" role="listitem">Dr. Cherry Bhargava Associate Professor, Department of Electronics and Telecommunication Engineering, Symbiosis Institute of Technology, Symbiosis International (Deemded University), Pune.</li>
-                                          <li class="list-group-item" role="listitem">Dr. Shruti Jain, Associate Professor, Department of ECE, Jaypee University of Information Technology, Waknaghat, H.P.</li>
-                                          <li class="list-group-item" role="listitem">Dr. Saurabh Bilgaiyan, Assistant Professor, KIIT University, Odisha</li>
-                                          <li class="list-group-item" role="listitem">Dr. Ravi Sekhar, Assistant Professor, Department of Mechanical Engineering , Symbiosis International (Deemed University) Pune, Maharashtra</li>
-                                          <li class="list-group-item" role="listitem">Dr. Meenkshi Sood , Associate Professor, National Institute of Technical Teachers Training & Research (NITTTR), Chandigarh</li>
-                                          <li class="list-group-item" role="listitem">Dr. Pritesh Shah , Associate Professor & Head, Electronics and Telecommunication Department, Symbiosis Institute of Technology, Symbiosis International (Deemed University), Pune</li>
-                                          <li class="list-group-item" role="listitem">Dr. Khushboo Pachori, Associate Professor, Oriental Institute of Technology, Bhopal</li>
-                                          <li class="list-group-item" role="listitem">Dr. Ramesh Chandra Panda, Dean, Research & Development Cell, Synergy Institute of Engineering & Technology, Odisha</li>
-                                          <li class="list-group-item" role="listitem">Ram Krishn Mishra, Department of Computer Science, BITS Pilani, Dubai Campus.</li>
-                                          <li class="list-group-item" role="listitem">Dr. Prasenjit Banerjee , Sr. Manager, CL Educate Ltd., New Delhi, India</li>
-                                          <li class="list-group-item" role="listitem">Dr. G. Sharada, Professor & HOD, Malla Reddy College of Engineering and Technology, Hyderabad, Telangana</li>
-                                          <li class="list-group-item" role="listitem">Dr. P. Bhaskara reddy, Director, Holy Mary Institute of Technology & Science, Hyderabad, Telangana</li>
-                                          <li class="list-group-item" role="listitem">Dr. G. Soma Sekhar, Professor, Geethanjali College of Engineering and Technology (A), Hyderabad, Telangana</li>
-                                          <li class="list-group-item" role="listitem">Dr. A. Arulmurugan, Professor, Vignan University, Guntur, Andhra Pradesh</li>
-                                          <li class="list-group-item" role="listitem">Dr. S. Satyanarayana, Professor, Raghu Engineering College, Visakhapatnam, Andhra Pradesh</li>
-                                          <li class="list-group-item" role="listitem">Mr. David Solomon Raju. Y, HOD-ECE, Holy Mary Institute of Technology & Science, Hyderabad, Telangana.</li>
-                                          <li class="list-group-item" role="listitem">Dr. Subhransu padhee , Department of electrical and electronics engineering , Sambalpur university institute of information technology Burla Odisha</li>
-                                          <li class="list-group-item" role="listitem">Dr. Abhishek Choubey, Associate Professor, Sreenidhi institute of science & Technology, Hyderabad</li>
-                                          <li class="list-group-item" role="listitem">Dr. Shruti Bhargava Choubey, Associate Professor, Sreenidhi institute of science & Technology, Hyderabad</li>
-                                          <li class="list-group-item" role="listitem">Dr. Deepak Punetha, Institute Post Doctoral Research Fellow, Department of Electrical Engineering, Indian Institute of Technology (IIT) Bombay, Powai, Mumbai, Maharashtra, India</li>
-                                          <li class="list-group-item" role="listitem">Dr. Sumit Kumar, Incharge M.Tech Embedded Systems, Associate Professor & Head, Electronics and Telecommunication Department, Symbiosis Institute of Technology, Symbiosis International (Deemed University), Pune</li>
-                                          <li class="list-group-item" role="listitem">Dr. Yogesh Shrivastava, Assistant Professor, Research Coordinator, Department of Mechanical Engg, Galgotias College of Engineering and Technology (GCET), Greater Noida, Uttar Pradesh, India</li>
-                                          </ul>  
+                                    <ul class="list-group list-group-flush" *ngFor="let names of Ndata; let i=index">
+                                      <li class="list-group-item" role="listitem" *ngIf="i!=0">{{names}}</li>
+                                  </ul>
                                   </div>
                               </div>
                           </div>
