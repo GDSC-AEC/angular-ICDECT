@@ -267,4 +267,29 @@ only screen and (-webkit-min-device-pixel-ratio : 1.5),
 only screen and (min-device-pixel-ratio : 1.5) {
 /* Styles */
 }
+.organized_by{
+  display: flex;
+  justify-content: center;
+  color:#ffc451;
+}
+.single-well.text-center {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+.aditya_eng{
+  font-size: 2rem;
+}
 
+figcaption {
+  visibility: visible;
+  color: #000;
+  background: rgba(255, 196, 81, 1);
+  /* Primary color, can be changed via colors.css */
+  
+  height: 100%;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
