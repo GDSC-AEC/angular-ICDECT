@@ -375,7 +375,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.452);
+  /* background: rgba(0, 0, 0, 0.452); */
+  background: linear-gradient(135deg,#2f48589c,#a3ba52ab);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -462,7 +463,8 @@ section {
 }
 
 .section-title {
-  padding-bottom: 40px;
+  /* padding-bottom: 40px; */
+  margin:0 0 1rem 0;
 }
 .section-title h2 {
   font-size: 14px;

@@ -272,4 +272,17 @@ only screen and (min-device-pixel-ratio : 1.5) {
   justify-content: center;
   color:#ffc451;
 }
+.single-well.text-center {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+.aditya_eng{
+  font-size: 2rem;
+}
 
+@media screen and (max-width:768px) {
+  .aditya_eng{
+    font-size: 1.1rem;
+  }
+}
