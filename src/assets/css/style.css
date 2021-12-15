@@ -377,6 +377,8 @@ h1, h2, h3, h4, h5, h6 {
   content: "";
   /* background: rgba(0, 0, 0, 0.452); */
   background: linear-gradient(135deg,#2f48589c,#a3ba52ab);
+  /* background: rgb(2,0,36);
+background: linear-gradient(137deg, rgba(2,0,36,1) 0%, rgba(57,42,110,0.7091211484593838) 0%, rgba(2,144,229,0.44861694677871145) 48%, rgba(0,52,255,0.4990371148459384) 100%); */
   position: absolute;
   bottom: 0;
   top: 0;

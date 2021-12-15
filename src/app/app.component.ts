@@ -32,6 +32,8 @@ export class AppComponent implements OnInit{
           target.css({ "background-color": "rgba(0, 0, 0, 0.105)" })
       }
     });
+
+    
   }
 
 
