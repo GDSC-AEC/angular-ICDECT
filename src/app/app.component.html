@@ -2,7 +2,7 @@
 
 <div class="careful">
   
-  <mat-toolbar class=" NavBar fixed-top " style="z-index: 9;">
+  <mat-toolbar id="header" class="NavBar fixed-top" style="z-index: 9;">
 
     <mat-toolbar-row class="container">
 
@@ -12,11 +12,11 @@
       
 
 
-      <a class="logo" style="font-weight: bolder;">ICDECT - 2022</a>
+      <a class="logo" href="#" style="font-weight: bolder; cursor: pointer;">ICDECT - 2022</a>
       <span class="spacer"></span>
   
      <div class="hide">
-      <button mat-button [routerLink]="['/']" routerLinkActive="router-link-active" >Home</button>
+      <button mat-button onclick="location.href='#'" >Home</button>
       <button mat-button [matMenuTriggerFor]="about">About</button>
       <button mat-button onclick="location.href='#call_for_papers'">Call For Papers</button>
       <button mat-button onclick="location.href='#submissions'" >Submissions</button>
@@ -39,7 +39,7 @@
     </mat-menu>
   
       <span class="spacer"></span>
-      <img mat-raised-button src="assets/img_more/LOGO3.png" height="35px" width="auto" alt="">
+      <img onclick="location.href='https://aec.edu.in'" style="cursor: pointer;" src="assets/img_more/LOGO3.png" height="35px" width="auto" alt="">
       
         <mat-menu #about="matMenu" style="z-index: 9;">
         
@@ -55,7 +55,7 @@
   </mat-toolbar>
   
   
-  <router-outlet (activate)="onActivate($event)"></router-outlet>
+  <router-outlet (activate)="onActivate($event)" style=" padding-top: 70px;"></router-outlet>
   
 </div>
 

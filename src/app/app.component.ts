@@ -12,6 +12,7 @@ export class AppComponent implements OnInit{
   title = 'ICDECT 2022';
   showFiller = false;
   ngOnInit() {
+    
 
     
     let target = $('.NavBar');
