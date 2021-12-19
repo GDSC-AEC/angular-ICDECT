@@ -1,16 +1,16 @@
 export const ParticlesConfig = {
   particles: {
-    number: { value: 60, density: { enable: true, value_area: 999 } },
-    color: { value: "#ffffff" },
+    number: { value: 150, density: { enable: false, value_area: 20 } },
+    color: { value: "#000000" },
     shape: {
       type: "circle",
-      stroke: { width: 1, color: "#000000" },
-      polygon: { nb_sides: 9 },
+      stroke: { width: 0, color: "#000000" },
+      polygon: { nb_sides: 6 },
       image: { src: "img/github.svg", width: 100, height: 100 }
     },
     opacity: {
-      value: 0.7,
-      random: false,
+      value: 0.5,
+      random: true,
       anim: { enable: false, speed: 1, opacity_min: 0.1, sync: false }
     },
     size: {
@@ -21,7 +21,7 @@ export const ParticlesConfig = {
     line_linked: {
       enable: true,
       distance: 150,
-      color: "#ffffff",
+      color: "#000000",
       opacity: 0.4,
       width: 1
     },

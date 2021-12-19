@@ -12,23 +12,29 @@
       
 
 
-      <a class="logo" href="#" style="font-weight: bolder; cursor: pointer;">ICDECT - 2022</a>
+      <a class="logo" href="#" style="font-weight: bolder; cursor: pointer; color: #ffc451 !important;">ICDECT - 2022</a>
       <span class="spacer"></span>
   
      <div class="hide">
-      <button mat-button onclick="location.href='#'" >Home</button>
-      <button mat-button [matMenuTriggerFor]="about">About</button>
-      <button mat-button onclick="location.href='#call_for_papers'">Call For Papers</button>
-      <button mat-button onclick="location.href='#submissions'" >Submissions</button>
-      <button mat-button onclick="location.href='#dates'" >Dates</button>
-      <button mat-button onclick="location.href='#team'">Team</button>
-      <button mat-button [routerLink]="['/gallery']">Gallery</button>
-      <button mat-button onclick="location.href='#venue'">Venue</button> 
-      <button mat-button onclick="location.href='#contact'">Contact</button>
+      <button class="shadow_power_3" mat-button onclick="location.href='#'" >Home</button>
+      <button class="shadow_power_3" mat-button [matMenuTriggerFor]="about">About</button>
+      <button class="shadow_power_3" mat-button onclick="location.href='#call_for_papers'">Call For Papers</button>
+      <button class="shadow_power_3" mat-button onclick="location.href='#submissions'" >Submissions</button>
+      <button class="shadow_power_3" mat-button onclick="location.href='#dates'" >Dates</button>
+      <button class="shadow_power_3" mat-button [routerLink]="['/team']">Team</button>
+      <button class="shadow_power_3" mat-button [routerLink]="['/gallery']">Gallery</button>
+      <button class="shadow_power_3" mat-button onclick="location.href='#venue'">Venue</button> 
+      <button class="shadow_power_3" mat-button onclick="location.href='#contact'">Contact</button>
      </div>
+
      <mat-menu #MobileMenu="matMenu">
       <button mat-menu-item [routerLink]="['/']" routerLinkActive="router-link-active" >Home</button>
-      <button mat-menu-item [matMenuTriggerFor]="about">About</button>
+      <button mat-menu-item class="dropdown">About</button>
+      <ul>
+        <li><a href="/about/#conference">About Conference</a></li>
+        <li><a href="/about/#institute">About Institute</a></li>
+        <li><a href="/about/#department">About Department</a></li>
+      </ul>
       <button mat-menu-item onclick="location.href='#call_for_papers'">Call For Papers</button>
       <button mat-menu-item onclick="location.href='#submissions'" >Submissions</button>
       <button mat-menu-item onclick="location.href='#dates'" >Dates</button>
@@ -43,7 +49,7 @@
       
         <mat-menu #about="matMenu" style="z-index: 9;">
         
-            <button mat-menu-item><a href="#about" style="text-decoration:none">About Conference</a></button>
+            <button mat-menu-item><a href="/about/#conference" style="text-decoration:none">About Conference</a></button>
             <button mat-menu-item><a href="about/#institute" style="text-decoration:none">About Institute</a></button>
             <button mat-menu-item><a href="about/#department" style="text-decoration:none">About Department</a></button>
        

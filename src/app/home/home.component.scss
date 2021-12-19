@@ -320,3 +320,23 @@ figcaption {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
+.shadow_power{
+  text-shadow: 2px 3px 7px #21082c;
+  cursor: pointer;
+}
+.shadow_power:hover{
+  text-shadow: 2px 5px 10px #21082c;
+  transition: all ease-in-out 150ms;
+}
+.shadow_power_2{
+  text-shadow: 1px 2px 5px #21082c;
+  cursor: pointer;
+  transition: all ease-in-out 150ms;
+}
+.shadow_power_2:hover{
+  text-shadow: 2px 6px 15px #21082c;
+}
+p.call_for_papers_para {
+  margin: 0 0 0 1.1rem;
+}
+
