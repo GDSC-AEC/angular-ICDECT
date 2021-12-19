@@ -376,7 +376,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero:before {
   content: "";
   /* background: rgba(0, 0, 0, 0.452); */
-  background: linear-gradient(135deg,#2f48589c,#a3ba52ab);
+  /* background: linear-gradient(135deg,#2f48589c,#a3ba52ab); */
   position: absolute;
   bottom: 0;
   top: 0;
@@ -1439,4 +1439,12 @@ a.download_link {
 .section-title {
   padding-bottom: 1rem;
 }
+}
+.shadow_power_3{
+  text-shadow: 1px 0px 3px #21082c;
+  letter-spacing: 0.4px;
+  cursor: pointer;
+}
+.shadow_power_3:hover{
+  text-shadow: none;
 }
