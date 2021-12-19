@@ -9,19 +9,37 @@
 
 .NavBar{
     background-color: rgba(0, 0, 0, 0.105);
-    
 }
 
-// .nav-transparent{
-//     background-color: transparent;
-// }
-// .nav-dark{
-//     background-color: rgba(0,0,0,0.8);
-// }
 .mat-button{
     color: white;
-    // font-weight: bold;
-    font-size: 1rem;
+    font-size: 1rem;  
+}
+
+
+// NavBar Responsiveness
+
+// Mobile
+@media screen and (max-width:1220px) {
+
+    .hide{
+        display: none;
+    }
+    .MobViewHide{
+        display: block;
+    }
     
 }
 
+// Laptop
+@media screen and (min-width: 1220px){
+
+    .MobViewHide{
+        display: none;
+    }
+
+    .hide{
+        display: block;
+    }
+   
+}

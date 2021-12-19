@@ -1,37 +1,63 @@
 <!-- ======= Header ======= -->
+
 <div class="careful">
-<mat-toolbar class="NavBar fixed-top " style="z-index: 2;">
-  <mat-toolbar-row class="container">
-    <a class="logo" style="font-weight: bolder;">ICDECT - 2022</a>
-    <span class="spacer"></span>
+  
+  <mat-toolbar class=" NavBar fixed-top " style="z-index: 9;">
 
-    <!-- <button mat-button [routerLink]="['/']" routerLinkActive="router-link-active" >Home</button>
-    <button mat-button [matMenuTriggerFor]="about">About</button>
-    <button mat-button onclick="location.href='#call_for_papers'">Call For Papers</button>
-    <button mat-button onclick="location.href='#submission'" >Submissions</button>
-    <button mat-button onclick="location.href='#dates'" >Dates</button>
-    <button mat-button onclick="location.href='#team'">Team</button>
-    <button mat-button [routerLink]="['/gallery']">Gallery</button>
-    <button mat-button onclick="location.href='#venue'">Venue</button>
-    <button mat-button onclick="location.href='#contact'">Contact</button> -->
+    <mat-toolbar-row class="container">
 
-    <span class="spacer"></span>
-    <img class="" src="assets/img_more/LOGO3.png" height="35px" width="auto" alt="">
+      <button mat-icon-button color="accent" class="MobViewHide" [matMenuTriggerFor]="MobileMenu" aria-label="Example icon button with a menu icon">
+        <mat-icon>menu</mat-icon>
+      </button>
+      
 
-    <mat-menu #about="matMenu" style="z-index: 9;">
-      <button mat-menu-item onclick="location.href='#about'">About Conference</button>
-      <button mat-menu-item onclick="location.href='#about'">About Institute</button>
-      <button mat-menu-item onclick="location.href='#about'">About Department</button>
+
+      <a class="logo" style="font-weight: bolder;">ICDECT - 2022</a>
+      <span class="spacer"></span>
+  
+     <div class="hide">
+      <button mat-button [routerLink]="['/']" routerLinkActive="router-link-active" >Home</button>
+      <button mat-button [matMenuTriggerFor]="about">About</button>
+      <button mat-button onclick="location.href='#call_for_papers'">Call For Papers</button>
+      <button mat-button onclick="location.href='#submissions'" >Submissions</button>
+      <button mat-button onclick="location.href='#dates'" >Dates</button>
+      <button mat-button onclick="location.href='#team'">Team</button>
+      <button mat-button [routerLink]="['/gallery']">Gallery</button>
+      <button mat-button onclick="location.href='#venue'">Venue</button> 
+      <button mat-button onclick="location.href='#contact'">Contact</button>
+     </div>
+     <mat-menu #MobileMenu="matMenu">
+      <button mat-menu-item [routerLink]="['/']" routerLinkActive="router-link-active" >Home</button>
+      <button mat-menu-item [matMenuTriggerFor]="about">About</button>
+      <button mat-menu-item onclick="location.href='#call_for_papers'">Call For Papers</button>
+      <button mat-menu-item onclick="location.href='#submissions'" >Submissions</button>
+      <button mat-menu-item onclick="location.href='#dates'" >Dates</button>
+      <button mat-menu-item onclick="location.href='#team'">Team</button>
+      <button mat-menu-item [routerLink]="['/gallery']">Gallery</button>
+      <button mat-menu-item onclick="location.href='#venue'">Venue</button> 
+      <button mat-menu-item onclick="location.href='#contact'">Contact</button>
     </mat-menu>
-  </mat-toolbar-row>
-</mat-toolbar>
-
-
-
-
-
-
-
-
-<router-outlet></router-outlet>
+  
+      <span class="spacer"></span>
+      <img mat-raised-button src="assets/img_more/LOGO3.png" height="35px" width="auto" alt="">
+      
+        <mat-menu #about="matMenu" style="z-index: 9;">
+        
+            <button mat-menu-item><a href="#about" style="text-decoration:none">About Conference</a></button>
+            <button mat-menu-item><a href="about/#institute" style="text-decoration:none">About Institute</a></button>
+            <button mat-menu-item><a href="about/#department" style="text-decoration:none">About Department</a></button>
+       
+        </mat-menu>
+    
+     
+    </mat-toolbar-row>
+  
+  </mat-toolbar>
+  
+  
+  <router-outlet (activate)="onActivate($event)"></router-outlet>
+  
 </div>
+
+  
+
