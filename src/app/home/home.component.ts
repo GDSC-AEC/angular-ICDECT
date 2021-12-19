@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {ParticlesConfig} from './particles-config';
+import {MatBottomSheet, MatBottomSheetRef} from '@angular/material/bottom-sheet';
 
 declare var particlesJS: any;
 
@@ -10,7 +11,9 @@ declare var particlesJS: any;
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  constructor() {}
+
+ 
 
   ngOnInit(): void {
     this.invokeParticles();
@@ -23,3 +26,6 @@ export class HomeComponent implements OnInit {
 
 
 }
+
+
+

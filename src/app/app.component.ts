@@ -10,12 +10,14 @@ import { routeTransitionAnimations } from './router-transition-animation';
 })
 export class AppComponent implements OnInit{
   title = 'ICDECT 2022';
-
+  showFiller = false;
   ngOnInit() {
+
+    
     let target = $('.NavBar');
+    let width = screen.width;
     let gap = $('.gap');
-    let spacer = $('.spacer');
-    let navhide = $('.navhide');
+    let navHide = $('.hide');
     function delay(ms: number) {
       return new Promise(resolve => setTimeout(resolve, ms));
     }
@@ -26,16 +28,23 @@ export class AppComponent implements OnInit{
           })
       }
       else {
-        navhide.css({
-          "display": "none"
-        }),
+  
           target.css({ "background-color": "rgba(0, 0, 0, 0.105)" })
       }
     });
 
-    
+
+
   }
+
+  
+
+  onActivate(event:any) {
+    window.scroll(0,0);
+}
 
 
 
 }
+
+

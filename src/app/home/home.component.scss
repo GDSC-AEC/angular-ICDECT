@@ -139,6 +139,33 @@ p.bigg_one {
 
 // MediaQuery Responsiveness ----
 
+
+// Mobile
+@media screen and (max-width:1220px) {
+
+  .cfpHide{
+      display: none;
+  }
+  .cfpShow{
+    display: block;
+  }
+  
+}
+
+// Laptop
+@media screen and (min-width: 1220px){
+
+  .cfpHide{
+      display: block;
+  }
+  .cfpShow{
+    display: none;
+  }
+ 
+}
+
+
+
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen 
 and (min-device-width : 320px) 
