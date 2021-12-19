@@ -1,5 +1,37 @@
-
+<!-- ======= Header ======= -->
 <div class="careful">
-  <router-outlet></router-outlet>
- 
+<mat-toolbar class="NavBar fixed-top " style="z-index: 2;">
+  <mat-toolbar-row class="container">
+    <a class="logo" style="font-weight: bolder;">ICDECT - 2022</a>
+    <span class="spacer"></span>
+
+    <!-- <button mat-button [routerLink]="['/']" routerLinkActive="router-link-active" >Home</button>
+    <button mat-button [matMenuTriggerFor]="about">About</button>
+    <button mat-button onclick="location.href='#call_for_papers'">Call For Papers</button>
+    <button mat-button onclick="location.href='#submission'" >Submissions</button>
+    <button mat-button onclick="location.href='#dates'" >Dates</button>
+    <button mat-button onclick="location.href='#team'">Team</button>
+    <button mat-button [routerLink]="['/gallery']">Gallery</button>
+    <button mat-button onclick="location.href='#venue'">Venue</button>
+    <button mat-button onclick="location.href='#contact'">Contact</button> -->
+
+    <span class="spacer"></span>
+    <img class="" src="assets/img_more/LOGO3.png" height="35px" width="auto" alt="">
+
+    <mat-menu #about="matMenu" style="z-index: 9;">
+      <button mat-menu-item onclick="location.href='#about'">About Conference</button>
+      <button mat-menu-item onclick="location.href='#about'">About Institute</button>
+      <button mat-menu-item onclick="location.href='#about'">About Department</button>
+    </mat-menu>
+  </mat-toolbar-row>
+</mat-toolbar>
+
+
+
+
+
+
+
+
+<router-outlet></router-outlet>
 </div>

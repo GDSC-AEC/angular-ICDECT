@@ -9,7 +9,25 @@ export class TeamComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
-  }
+  Odata:any;
+  Sdata:any;
+  Idata:any;
+  Ndata:any;
 
+  async ngOnInit(){
+
+    async function data(url: any) 
+    {
+      let response = fetch(url);
+      console.log(response);
+      let data = (await response).json();
+      console.log(data);
+      return data
+    }
+    this.Odata = await data('https://dect-committee.herokuapp.com/organizing');
+    this.Sdata = await data('https://dect-committee.herokuapp.com/steering');
+    this.Idata = await data('https://dect-committee.herokuapp.com/international');
+    this.Ndata = await data('https://dect-committee.herokuapp.com/national');
+  }
 }
+
