@@ -18,9 +18,17 @@
 </section>
 <!-- End Hero -->
 
-<section class="container">
-  <mat-tab-group mat-align-tabs="center">
-    <mat-tab label="About Conference">
+<section class="container" id="about">
+  <mat-tab-group mat-align-tabs="center" 
+
+
+
+  [selectedIndex]="selected.value"
+  (selectedIndexChange)="selected.setValue($event)"
+  
+  
+  >
+    <mat-tab label="About Conference" >
       <br>
       <br>
       <div class="row">
@@ -59,11 +67,11 @@
       </p>
     </mat-tab>
 
-    <mat-tab label="About Department">
+    <mat-tab label="About Department" >
      
       <br>
       <br>
-      <div class="row" id="department">
+      <div class="row" >
         <h4 class="text-divider text-center">
           <span id="font" class="heading_department">About Department</span>
         </h4>
@@ -100,11 +108,11 @@
   
     </mat-tab>
 
-    <mat-tab label="About Institute">
+    <mat-tab label="About Institute" >
       <br>
       <br>
 
-      <div class="row" id="institute">
+      <div class="row" >
         <h4 class="text-divider text-center">
           <span id="font" class="heading_department">About Institute</span>
         </h4>
@@ -140,7 +148,7 @@
   </mat-tab-group>
 
 
-  <div class="container text-justify lab-text" id="conference">
+  <div class="container text-justify lab-text" >
    
 
 
