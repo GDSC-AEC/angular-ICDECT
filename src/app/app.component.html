@@ -49,9 +49,16 @@
       
         <mat-menu #about="matMenu" style="z-index: 9;">
         
-            <button mat-menu-item><a href="/about/#conference" style="text-decoration:none">About Conference</a></button>
-            <button mat-menu-item><a href="about/#institute" style="text-decoration:none">About Institute</a></button>
-            <button mat-menu-item><a href="about/#department" style="text-decoration:none">About Department</a></button>
+            <button mat-menu-item onclick="location.href='/about/?id=0'">
+              <a style="text-decoration:none">About Conference</a>
+            </button>
+
+            <button mat-menu-item onclick="location.href='/about/?id=2'">
+              <a style="text-decoration:none">About Institute</a>
+            </button>
+            <button mat-menu-item  onclick="location.href='/about/?id=1'">
+              <a style="text-decoration:none">About Department</a>
+            </button>
        
         </mat-menu>
     
