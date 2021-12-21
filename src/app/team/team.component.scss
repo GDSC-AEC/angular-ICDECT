@@ -4,13 +4,27 @@
 #zero {
   width: 100%;
   height: 60vh;
-  background: url("../../assets/img_more/team1.jpg") top center;
+  // background: url("../../assets/img_more/team1.jpg") top center;
   background-size: cover;
   position: relative;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #0c9ed3, #23d5ab,rgb(20, 221, 70),yellow);
+	animation: gradient 10s ease infinite;
+	background-size: 400% 400%;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 #zero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.6);
+  // background: rgba(0, 0, 0, 0.6);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -235,4 +249,8 @@ img.img-fluid {
   height: auto;
   width: 900px;
 }
-
+.member-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
