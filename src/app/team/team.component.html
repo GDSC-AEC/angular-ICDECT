@@ -363,7 +363,7 @@
             <br />
             <!-- 2 -->
             <div class="section-title">
-              <h2>Website Committee</h2>
+              <h2>Organizing Committee</h2>
             </div>
             <div style="margin-bottom: 20px">
               <ul class="list-group list-group-flush" *ngFor="let names of Odata; let i = index">
@@ -373,9 +373,10 @@
               </ul>
             </div>
             <br />
+
             <!-- 3 -->
             <div class="section-title">
-              <h2>Website Committee</h2>
+              <h2>Steering Committee</h2>
             </div>
             <div style="margin-bottom: 20px">
               <ul class="list-group list-group-flush" *ngFor="let names of Sdata; let i = index">
@@ -385,9 +386,23 @@
               </ul>
             </div>
             <br />
+
             <!-- 4 -->
             <div class="section-title">
-              <h2>Website Committee</h2>
+              <h2>International Advisory Committee</h2>
+            </div>
+            <div style="margin-bottom: 20px">
+              <ul class="list-group list-group-flush" *ngFor="let names of Idata; let i = index">
+                <li class="list-group-item" role="listitem" *ngIf="i != 0">
+                  {{ names }}
+                </li>
+              </ul>
+            </div>
+            <br />
+
+            <!-- 5 -->
+            <div class="section-title">
+              <h2>National Advisory Committee</h2>
             </div>
             <div style="margin-bottom: 20px">
               <ul class="list-group list-group-flush" *ngFor="let names of Ndata; let i = index">
@@ -396,6 +411,7 @@
                 </li>
               </ul>
             </div>
+
           </div>
         </div>
         <!-- /.row -->
