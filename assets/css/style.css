@@ -322,7 +322,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero:before {
   content: "";
   /* background: rgba(0, 0, 0, 0.452); */
-  background: linear-gradient(135deg,#258ac979,rgba(0, 0, 255, 0));
+  background: linear-gradient(180deg,#258ac96c,rgba(0, 0, 255, 0));
   /* background: rgb(2,0,36);
 background: linear-gradient(137deg, rgba(2,0,36,1) 0%, rgba(57,42,110,0.7091211484593838) 0%, rgba(2,144,229,0.44861694677871145) 48%, rgba(0,52,255,0.4990371148459384) 100%); */
   position: absolute;
