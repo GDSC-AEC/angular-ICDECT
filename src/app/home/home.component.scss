@@ -319,26 +319,27 @@ p.call_for_papers_para {
 }
 .color_gra{
 
-  animation: gradient 7s ease-in-out infinite;
-  animation-direction: alternate;
+  // animation: gradient 7s ease-in-out infinite;
+  // animation-direction: alternate;
+  color: white!important;
 }
-@keyframes gradient {
-	0% {
-		// background-position: 0% 50%;
-    color:rgba(251, 255, 5, 0.863);
-	}
-  25%{
-    color:rgb(19, 189, 241);
-  }
-	50% {
-		// background-position: 100% 50%;
-    color:pink;
-	}
-  75%{
-    color:rgb(255, 46, 46);
-  }
-	100% {
-		// background-position: 0% 50%;
-    color: rgba(236, 18, 207, 0.808);
-	}
-}
+// @keyframes gradient {
+// 	0% {
+// 		// background-position: 0% 50%;
+//     color:rgba(251, 255, 5, 0.863);
+// 	}
+//   25%{
+//     color:rgb(19, 189, 241);
+//   }
+// 	50% {
+// 		// background-position: 100% 50%;
+//     color:pink;
+// 	}
+//   75%{
+//     color:rgb(255, 46, 46);
+//   }
+// 	100% {
+// 		// background-position: 0% 50%;
+//     color: rgba(236, 18, 207, 0.808);
+// 	}
+// }
