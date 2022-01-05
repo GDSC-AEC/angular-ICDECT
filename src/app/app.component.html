@@ -21,7 +21,7 @@
       <button class="shadow_power_3" mat-button onclick="location.href='#call_for_papers'">Call For Papers</button>
       <button class="shadow_power_3" mat-button onclick="location.href='#submissions'" >Submissions</button>
       <button class="shadow_power_3" mat-button onclick="location.href='#dates'" >Dates</button>
-      <button class="shadow_power_3" onclick="location.href='icdect2022/team'" mat-button>Team</button>
+      <button class="shadow_power_3" [routerLink]="['/team']" mat-button>Team</button>
       <button class="shadow_power_3" mat-button [routerLink]="['/gallery']">Gallery</button>
       <button class="shadow_power_3" mat-button onclick="location.href='#venue'">Venue</button> 
       <button class="shadow_power_3" mat-button onclick="location.href='#contact'">Contact</button>
@@ -38,7 +38,7 @@
       <button mat-menu-item onclick="location.href='#call_for_papers'">Call For Papers</button>
       <button mat-menu-item onclick="location.href='#submissions'" >Submissions</button>
       <button mat-menu-item onclick="location.href='#dates'" >Dates</button>
-      <button mat-menu-item onclick="location.href='/team'">Team</button>
+      <button mat-menu-item [routerLink]="['/team']">Team</button>
       <button mat-menu-item [routerLink]="['/gallery']">Gallery</button>
       <button mat-menu-item onclick="location.href='#venue'">Venue</button> 
       <button mat-menu-item onclick="location.href='#contact'">Contact</button>
@@ -49,14 +49,14 @@
       
         <mat-menu #about="matMenu" style="z-index: 9;">
         
-            <button mat-menu-item onclick="location.href='about/:id=0'">
+            <button mat-menu-item [routerLink]="['/about']">
               <a style="text-decoration:none">About Conference</a>
             </button>
 
-            <button mat-menu-item onclick="location.href='about/:id=2'">
+            <button mat-menu-item [routerLink]="['/about']">
               <a style="text-decoration:none">About Institute</a>
             </button>
-            <button mat-menu-item  onclick="location.href='about/:id=1'">
+            <button mat-menu-item  [routerLink]="['/about']">
               <a style="text-decoration:none">About Department</a>
             </button>
        

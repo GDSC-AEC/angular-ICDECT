@@ -13,25 +13,7 @@ export class AboutComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-
-     // http://localhost:4200/about#institute
-     let url = window.location.href;
-     let about_section = document.getElementById("about")
-
-     if(url.includes('id=0')){
-       about_section?.scrollIntoView(true)
-       this.selected = new FormControl(0);
-     }
-     if(url.includes('id=2')){
-      about_section?.scrollIntoView(true)
-       this.selected = new FormControl(2);
-     }
-     if(url.includes('id=1')){
-      about_section?.scrollIntoView(true)
-       this.selected = new FormControl(1);
-     }
-
-
+    this.selected = new FormControl(0);
   }
 
 change_tab(){
