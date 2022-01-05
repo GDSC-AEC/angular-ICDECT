@@ -21,7 +21,7 @@
       <button class="shadow_power_3" mat-button onclick="location.href='#call_for_papers'">Call For Papers</button>
       <button class="shadow_power_3" mat-button onclick="location.href='#submissions'" >Submissions</button>
       <button class="shadow_power_3" mat-button onclick="location.href='#dates'" >Dates</button>
-      <button class="shadow_power_3" onclick="location.href='/team'" mat-button>Team</button>
+      <button class="shadow_power_3" onclick="location.href='icdect2022/team'" mat-button>Team</button>
       <button class="shadow_power_3" mat-button [routerLink]="['/gallery']">Gallery</button>
       <button class="shadow_power_3" mat-button onclick="location.href='#venue'">Venue</button> 
       <button class="shadow_power_3" mat-button onclick="location.href='#contact'">Contact</button>
@@ -45,18 +45,18 @@
     </mat-menu>
   
       <span class="spacer"></span>
-      <img onclick="location.href='https://aec.edu.in'" style="cursor: pointer;" src="assets/img_more/LOGO3.png" height="35px" width="auto" alt="">
+      <img onclick="location.href='/'" style="cursor: pointer;" src="assets/img_more/LOGO3.png" height="35px" width="auto" alt="">
       
         <mat-menu #about="matMenu" style="z-index: 9;">
         
-            <button mat-menu-item onclick="location.href='/about/?id=0'">
+            <button mat-menu-item onclick="location.href='about/:id=0'">
               <a style="text-decoration:none">About Conference</a>
             </button>
 
-            <button mat-menu-item onclick="location.href='/about/?id=2'">
+            <button mat-menu-item onclick="location.href='about/:id=2'">
               <a style="text-decoration:none">About Institute</a>
             </button>
-            <button mat-menu-item  onclick="location.href='/about/?id=1'">
+            <button mat-menu-item  onclick="location.href='about/:id=1'">
               <a style="text-decoration:none">About Department</a>
             </button>
        

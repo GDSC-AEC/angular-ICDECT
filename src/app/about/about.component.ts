@@ -18,15 +18,15 @@ export class AboutComponent implements OnInit {
      let url = window.location.href;
      let about_section = document.getElementById("about")
 
-     if(url.includes('0')){
+     if(url.includes('id=0')){
        about_section?.scrollIntoView(true)
        this.selected = new FormControl(0);
      }
-     if(url.includes('2')){
+     if(url.includes('id=2')){
       about_section?.scrollIntoView(true)
        this.selected = new FormControl(2);
      }
-     if(url.includes('1')){
+     if(url.includes('id=1')){
       about_section?.scrollIntoView(true)
        this.selected = new FormControl(1);
      }
