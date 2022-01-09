@@ -10,8 +10,7 @@ declare var particlesJS: any;
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
-
-  constructor() {}
+    constructor() {}
 
  
 

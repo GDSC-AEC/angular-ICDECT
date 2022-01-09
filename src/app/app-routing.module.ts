@@ -18,7 +18,7 @@ const routes: Routes = [
         data: { animationState: 'One' }
       },
       {
-        path: 'about', 
+        path: 'about/:id', 
         component: AboutComponent,
         data: { animationState: 'Two' },
       children: []

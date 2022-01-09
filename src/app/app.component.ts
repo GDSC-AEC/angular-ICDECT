@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormControl } from '@angular/forms';
 import { RouterOutlet, Scroll } from '@angular/router';
 import { routeTransitionAnimations } from './router-transition-animation';
 
@@ -12,7 +13,6 @@ export class AppComponent implements OnInit{
   title = 'ICDECT 2022';
   showFiller = false;
   ngOnInit() {
-    
 
     
     let target = $('.NavBar');
@@ -37,7 +37,6 @@ export class AppComponent implements OnInit{
 
 
   }
-
   
 
   onActivate(event:any) {

@@ -49,14 +49,15 @@
       
         <mat-menu #about="matMenu" style="z-index: 9;">
         
-            <button mat-menu-item [routerLink]="['/about']">
+            <button mat-menu-item [routerLink]="['/about/0']" onclick="change();">
               <a style="text-decoration:none">About Conference</a>
             </button>
 
-            <button mat-menu-item [routerLink]="['/about']">
+            <button mat-menu-item [routerLink]="['/about/2']" onclick="change();">
               <a style="text-decoration:none">About Institute</a>
             </button>
-            <button mat-menu-item  [routerLink]="['/about']">
+
+            <button mat-menu-item  [routerLink]="['/about/1']" onclick="change();">
               <a style="text-decoration:none">About Department</a>
             </button>
        
