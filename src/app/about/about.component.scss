@@ -10,8 +10,8 @@
     // object-position: 20% 10%;
 	background-size: cover;
 	position: relative;
-	background: linear-gradient(-45deg, #ee7752, #e73c7e, #0c9ed3, #23d5ab,rgb(20, 221, 70),yellow);
-	animation: gradient 15s ease infinite;
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #0c9ed3);
+	animation: gradient 10s ease infinite;
 	background-size: 400% 400%;
   }
   @keyframes gradient {

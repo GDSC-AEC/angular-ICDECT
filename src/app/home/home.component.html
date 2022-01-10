@@ -87,7 +87,7 @@
             12th & 13th, 2022 in association with Springer.
           </p>
           <br />
-          <a href="about">Read More...</a>
+          <a [routerLink]="['/about/0']">Read More...</a>
         </div>
       </div>
     </div>
@@ -120,232 +120,160 @@
         </div>
       </div>
       <div class="cfpHide">
-        <p>
+        <p style="font-size:x-large; line-height: normal;">
           The conference papers will cover disciplines of computer science,
           Electronics and Communication Engineering, Electrical Engineering and
           Instrumentation. The topics of interest include, but not limited to
           the following:
         </p>
-        <!-- cfp 1 -->
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3" style="font-size: 15px">
-          <div class="col">
-            <ul style="list-style: none; line-height: 50px">
-              <li>Data Mining</li>
-              <li>Databases and Information Retrieval Systems</li>
-              <li>Health informatics</li>
-              <li>Machine Learning</li>
-              <li>Deep Learning</li>
-              <li>NLP</li>
-              <li>Computer Vision and Pattern Recognition</li>
-              <li>Knowledge Engineering</li>
-              <li>High Performance Computing</li>
-              <li>Parallel Computing</li>
-              <li>Distributed Computing</li>
-              <li>Grid Computing</li>
-              <li>Soft Computing</li>
-              <li>Quantum Computing</li>
-              <li>Virtualization</li>
-              <li>Networking and Security</li>
-              <li>Networking and communications</li>
-              <li>Future internet architectures</li>
-              <li>Named data networks</li>
-              <li>Agent Networks</li>
-              <li>Autonomy Remembrance Agents</li>
-            </ul>
+        <div class="row">
+          <div class="column">
+            
+            <p><mat-icon style="color: blanchedalmond;">done</mat-icon>Data Mining</p>
+            <p><mat-icon>done</mat-icon>Databases and Information Retrieval Systems</p>
+            <p><mat-icon>done</mat-icon>Health informatics</p>
+            <p><mat-icon>done</mat-icon>Machine Learning</p>
+            <p><mat-icon>done</mat-icon>Deep Learning</p>
+            <p><mat-icon>done</mat-icon>NLP</p>
+            <p><mat-icon>done</mat-icon>Computer Vision and Pattern Recognition</p>
+            <p><mat-icon>done</mat-icon>Knowledge Engineering</p>
+            <p><mat-icon>done</mat-icon>High Performance Computing</p>
+            <p><mat-icon>done</mat-icon>Parallel Computing</p>
+            <p><mat-icon>done</mat-icon>Distributed Computing</p>
+            <p><mat-icon>done</mat-icon>Grid Computing</p>
+            <p><mat-icon>done</mat-icon>Soft Computing</p>
+            <p><mat-icon>done</mat-icon>Quantum Computing</p>
+            <p><mat-icon>done</mat-icon>Virtualization</p>
+            <p><mat-icon>done</mat-icon>Networking and Security</p>
+            <p><mat-icon>done</mat-icon>Networking and communications</p>
+            <p><mat-icon>done</mat-icon>Future internet architectures</p>
+            <p><mat-icon>done</mat-icon>Named data networks</p>
+            <p><mat-icon>done</mat-icon>Agent Networks</p>
+            <p><mat-icon>done</mat-icon>Autonomy Remembrance Agents</p>
+            <p><mat-icon>done</mat-icon>Edge computing</p>
+            <p><mat-icon>done</mat-icon>Adhoc and Wireless Sensor Networks</p>
+            <p><mat-icon>done</mat-icon>Network Security</p>
+            <p><mat-icon>done</mat-icon>Information Security</p>
+            <p><mat-icon>done</mat-icon>Cyber Security</p>
+            <p><mat-icon>done</mat-icon>Grid and Cloud Security</p>
+            <p><mat-icon>done</mat-icon>Application Security</p>
+            <p><mat-icon>done</mat-icon>Web and Mobile Application Security</p>
+            <p><mat-icon>done</mat-icon>RFID and Cognitive Radio</p>
+            <p><mat-icon>done</mat-icon>Blockchain based AI and cloud computing</p>
+            <p><mat-icon>done</mat-icon>Blockchain-based IoT Applications and Services</p>
+            <p><mat-icon>done</mat-icon>Blockchain in Cyber Physical Systems (CPS)</p>
+            <p><mat-icon>done</mat-icon>Blockchain Analytics and Data mining</p>
+            <p><mat-icon>done</mat-icon>Security and Privacy in Blockchain</p>
+            <p><mat-icon>done</mat-icon>Software Engineering and Analytics</p>
+            <p><mat-icon>done</mat-icon>Business Process Design and Deployment</p>
+            <p><mat-icon>done</mat-icon>Safety-Critical Software</p>
+            <p><mat-icon>done</mat-icon>Model Driven Development</p>
+            <p><mat-icon>done</mat-icon>Security and Privacy</p>
+            <p><mat-icon>done</mat-icon>Web Intelligence and Computing</p>
+            <p><mat-icon>done</mat-icon>Crowdsourcing and Social Data Mining</p>
+            <p><mat-icon>done</mat-icon>Human Centric Computing</p>
           </div>
-          <div class="col ml-auto">
-            <ul style="list-style: none; line-height: 50px">
-              <li>Edge computing</li>
-              <li>Adhoc and Wireless Sensor Networks</li>
-              <li>Network Security</li>
-              <li>Information Security</li>
-              <li>Cyber Security</li>
-              <li>Grid and Cloud Security</li>
-              <li>Application Security</li>
-              <li>Web and Mobile Application Security</li>
-              <li>RFID and Cognitive Radio</li>
-              <li>Blockchain based AI and cloud computing</li>
-              <li>
-                Blockchain-based IoT Applications and
-                <p class="call_for_papers_para">Services</p>
-              </li>
-              <li>
-                Blockchain in Cyber Physical Systems
-                <p class="call_for_papers_para">(CPS)</p>
-              </li>
-              <li>Blockchain Analytics and Data mining</li>
-              <li>Security and Privacy in Blockchain</li>
-              <li>Software Engineering and Analytics</li>
-              <li>Business Process Design and Deployment</li>
-              <li>Safety-Critical Software</li>
-              <li>Model Driven Development</li>
-              <li>Security and Privacy</li>
-            </ul>
+          <div class="column">
+           
+            <p><mat-icon>done</mat-icon>Information Diffusion</p>
+            <p><mat-icon>done</mat-icon>Knowledge Community Support</p>
+            <p><mat-icon>done</mat-icon>Modelling Crowdsourcing</p>
+            <p><mat-icon>done</mat-icon>Algorithms and Knowledge Management</p>
+            <p><mat-icon>done</mat-icon>Autonomy-Oriented Computing (AOC)</p>
+            <p><mat-icon>done</mat-icon>Computational Models</p>
+            <p><mat-icon>done</mat-icon>Data Driven Services and Applications</p>
+            <p><mat-icon>done</mat-icon>Data Science and Machine Learning</p>
+            <p><mat-icon>done</mat-icon>Semantic Networks</p>
+            <p><mat-icon>done</mat-icon>Sensor Networks</p>
+            <p><mat-icon>done</mat-icon>Web Science</p>
+            <p><mat-icon>done</mat-icon>Fake Content and Fraud Detection</p>
+            <p><mat-icon>done</mat-icon>Hidden Web Analytics</p>
+            <p><mat-icon>done</mat-icon>Monetization Services and Applications</p>
+            <p><mat-icon>done</mat-icon>Trust Models for Agents</p>
+            <p><mat-icon>done</mat-icon>Ubiquitous Computing</p>
+            <p><mat-icon>done</mat-icon>Speech Processing using Artificial Intelligence</p>
+            <p><mat-icon>done</mat-icon>Tele sensation and Hyper Reality</p>
+            <p><mat-icon>done</mat-icon>Agent Networks</p>
+            <p><mat-icon>done</mat-icon>Autonomy Remembrance Agents</p>
+            <p><mat-icon>done</mat-icon>Autonomy-oriented Computing</p>
+            <p><mat-icon>done</mat-icon>Behavior Modelling</p>
+            <p><mat-icon>done</mat-icon>Distributed Problem-Solving Global Brain</p>
+            <p><mat-icon>done</mat-icon>Image/Video Formation and Display</p>
+            <p><mat-icon>done</mat-icon>Image/Video Filtering Restoration Enhancement and Super-resolution</p>
+            <p><mat-icon>done</mat-icon>Image/Video Coding and Transmission</p>
+            <p><mat-icon>done</mat-icon>Image/Video Storage Retrieval and Authentication</p>
+            <p><mat-icon>done</mat-icon>Image/Video Quality</p>
+            <p><mat-icon>done</mat-icon>Transform-based and Multi-resolution Image/Video Analysis</p>
+            <p><mat-icon>done</mat-icon>Biological and Perceptual Models for Image/Video Processing</p>
+            <p><mat-icon>done</mat-icon>Machine Learning in Image/Video Analysis</p>
+            <p><mat-icon>done</mat-icon>Probability and uncertainty handling for Image/Video Processing</p>
+            <p><mat-icon>done</mat-icon>Motion and Tracking</p>
+            <p><mat-icon>done</mat-icon>Communication and Computing</p>
+            <p><mat-icon>done</mat-icon>Fog Computing</p>
+            <p><mat-icon>done</mat-icon>Electric Vehicle Technology</p>
+            <p><mat-icon>done</mat-icon>Wireless LANs and PANs</p>
+            <p><mat-icon>done</mat-icon>Human Body Communication</p>
+            <p><mat-icon>done</mat-icon>Broadband Mobile Communications</p>
+            <p><mat-icon>done</mat-icon>Nano Computing</p>
+            <p><mat-icon>done</mat-icon>Embedded Systems</p>
+            <p><mat-icon>done</mat-icon>4G & 5G Communications & Technology</p>
+            <p><mat-icon>done</mat-icon>Green computing</p>
           </div>
-          <div class="col ml-auto">
-            <ul style="list-style: none; line-height: 50px">
-              <li>Web Intelligence and Computing</li>
-              <li>Crowdsourcing and Social Data Mining</li>
-              <li>Human Centric Computing</li>
-              <li>Information Diffusion</li>
-              <li>Knowledge Community Support</li>
-              <li>Modelling Crowdsourcing</li>
-              <li>Algorithms and Knowledge Management</li>
-              <li>Autonomy-Oriented Computing (AOC)</li>
-              <li>Computational Models</li>
-              <li>Data Driven Services and Applications</li>
-              <li>Data Science and Machine Learning</li>
-              <li>Semantic Networks</li>
-              <li>Sensor Networks</li>
-              <li>Web Science</li>
-              <li>Fake Content and Fraud Detection</li>
-              <li>Hidden Web Analytics</li>
-              <li>Monetization Services and Applications</li>
-              <li>Trust Models for Agents</li>
-              <li>Ubiquitous Computing</li>
-              <li>Speech Processing using Artificial Intelligence</li>
-              <li>Tele sensation and Hyper Reality</li>
-            </ul>
-          </div>
-        </div>
-        <!-- cfp 2 -->
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3" style="font-size: 15px">
-          <div class="col">
-            <ul style="list-style: none; line-height: 50px">
-              <!-- <li>Agent Networks</li>
-              <li>Autonomy Remembrance Agents</li> -->
-              <li>Autonomy-oriented Computing</li>
-              <li>Behavior Modelling</li>
-              <li>
-                Distributed Problem-Solving Global
-                <p class="call_for_papers_para">Brain</p>
-              </li>
-              <li>Image/Video Formation and Display</li>
-              <li>
-                Image/Video Filtering Restoration
-                <p class="call_for_papers_para">
-                  Enhancement and Super-resolution
-                </p>
-              </li>
-              <li>Image/Video Coding and Transmission</li>
-              <li>
-                Image/Video Storage Retrieval and
-                <p class="call_for_papers_para">Authentication</p>
-              </li>
-              <li>Image/Video Quality</li>
-              <li>
-                Transform-based and Multi-resolution
-                <p class="call_for_papers_para">Image/Video Analysis</p>
-              </li>
-              <li>
-                Biological and Perceptual Models for
-                <p class="call_for_papers_para">Image/Video Processing</p>
-              </li>
-              <li>
-                Machine Learning in Image/Video
-                <p class="call_for_papers_para">Analysis</p>
-              </li>
-              <li>
-                Probability and uncertainty handling
-                <p class="call_for_papers_para">for Image/Video Processing</p>
-              </li>
-              <li>Motion and Tracking</li>
-              <li>Communication and Computing</li>
-              <li>Fog Computing</li>
-              <li>Wireless LANs and PANs</li>
-              <li>Human Body Communication</li>
-            </ul>
-          </div>
-
-          <div class="col ml-auto">
-            <ul style="list-style: none; line-height: 50px">
-              <li>Broadband Mobile Communications</li>
-              <li>Nano Computing</li>
-              <li>Embedded Systems</li>
-              <li>4G & 5G Communications & Technology</li>
-              <li>Green computing</li>
-              <li>IoT Applications and Services</li>
-              <li>Signal Processing</li>
-              <li>DSP Architectures</li>
-              <li>Signal and Image Processing</li>
-              <li>Biomedical Signal Processing</li>
-              <li>
-                Electronics and Signal processing for
-                <p class="call_for_papers_para">IoT</p>
-              </li>
-              <li>Sensors and Antenna</li>
-              <li>Mobile IoT</li>
-              <li>Robotics</li>
-              <li>Nano Electronics & Micro Electronics</li>
-              <li>Nano Technology & Nano Machines</li>
-              <li>Very Large-Scale Integration (VLSI)</li>
-              <li>Microscale Fabrication</li>
-              <li>
-                Wireless Sensors in Communication
-                <p class="call_for_papers_para">Intelligence</p>
-              </li>
-              <li>Power System Modeling and Analysis</li>
-              <li>
-                Power Generation Transmission and
-                <p class="call_for_papers_para">Distribution</p>
-              </li>
-
-              <li>Photonic Devices</li>
-              <li>Power Electronics and Drive Control Technics</li>
-
-              <li>Photonic Devices</li>
-              <li>
-                Power Electronics and Drive Control
-                <p class="call_for_papers_para">Technics</p>
-              </li>
-            </ul>
-          </div>
-          <div class="col ml-auto">
-            <ul style="list-style: none; line-height: 50px">
-              <!-- <li>Speech Processing using Artificial Intelligence</li>
-              <li>Tele sensation and Hyper Reality</li> -->
-              <li>Telecommunication and Radio Signals Remote
-                <p class="call_for_papers_para">
-                  Sensing
-                </p>
-              </li>
-              <li>Intelligent Computing in Sensors</li>
-              <li>Sensor Instrumentation and Measuring
-                <p class="call_for_papers_para">
-                  Technology
-                </p>
-              </li>
-              <li>Antenna Smart Antennas</li>
-              <li>Micro Electronics Circuits and Systems</li>
-              <li>Circuits and Systems</li>
-              <li>Microwave Engineering and Microwave
-                <p class="call_for_papers_para">
-                  Circuits
-
-                </p>
-              </li>
-              <li>Low Power VLSI Circuits</li>
-              <li>Electromagnetics and Mechatronics</li>
-              <li>HVDC Renewable Energy Systems</li>
-              <li>Renewable Energy Sources</li>
-              <li>Smart grids Technologies & Applications</li>
-              <li>Analysis and Design of Control Systems</li>
-              <li>Power Electronics and Drives</li>
-              <li>Power Electronics Systems and Applications</li>
-              <li>Power System Protection</li>
-              <li>Electric Vehicle Technology</li>
-
-              <li>Electro Technologies</li>
-              <li>Digital Communication</li>
-
-              <li>Semiconductor Technology</li>
-              <li>Transmission of Numerical Images</li>
-            </ul>
+          <div class="column">
+           
+            <p><mat-icon>done</mat-icon>IoT Applications and Services</p>
+            <p><mat-icon>done</mat-icon>Signal Processing</p>
+            <p><mat-icon>done</mat-icon>DSP Architectures</p>
+            <p><mat-icon>done</mat-icon>Signal and Image Processing</p>
+            <p><mat-icon>done</mat-icon>Biomedical Signal Processing</p>
+            <p><mat-icon>done</mat-icon>Electronics and Signal processing for IoT</p>
+            <p><mat-icon>done</mat-icon>Sensors and Antenna</p>
+            <p><mat-icon>done</mat-icon>Mobile IoT</p>
+            <p><mat-icon>done</mat-icon>Robotics</p>
+            <p><mat-icon>done</mat-icon>Nano Electronics & Micro Electronics</p>
+            <p><mat-icon>done</mat-icon>Nano Technology & Nano Machines</p>
+            <p><mat-icon>done</mat-icon>Very Large-Scale Integration (VLSI)</p>
+            <p><mat-icon>done</mat-icon>Microscale Fabrication</p>
+            <p><mat-icon>done</mat-icon>Wireless Sensors in Communication Intelligence</p>
+            <p><mat-icon>done</mat-icon>Power System Modeling and Analysis</p>
+            <p><mat-icon>done</mat-icon>Power Generation Transmission and Distribution</p>
+            <p><mat-icon>done</mat-icon>Photonic Devices</p>
+            <p><mat-icon>done</mat-icon>Power Electronics and Drive Control Technics</p>
+            <p><mat-icon>done</mat-icon>Photonic Devices</p>
+            <p><mat-icon>done</mat-icon>Power Electronics and Drive Control Technics</p>
+            <p><mat-icon>done</mat-icon>Speech Processing using Artificial Intelligence</p>
+            <p><mat-icon>done</mat-icon>Tele sensation and Hyper Reality</p>
+            <p><mat-icon>done</mat-icon>Telecommunication and Radio Signals Remote Sensing</p>
+            <p><mat-icon>done</mat-icon>Intelligent Computing in Sensors</p>
+            <p><mat-icon>done</mat-icon>Sensor Instrumentation and Measuring Technology</p>
+            <p><mat-icon>done</mat-icon>Antenna Smart Antennas</p>
+            <p><mat-icon>done</mat-icon>Micro Electronics Circuits and Systems</p>
+            <p><mat-icon>done</mat-icon>Circuits and Systems</p>
+            <p><mat-icon>done</mat-icon>Microwave Engineering and Microwave Circuits</p>
+            <p><mat-icon>done</mat-icon>Low Power VLSI Circuits</p>
+            <p><mat-icon>done</mat-icon>Electromagnetics and Mechatronics</p>
+            <p><mat-icon>done</mat-icon>HVDC Renewable Energy Systems</p>
+            <p><mat-icon>done</mat-icon>Renewable Energy Sources</p>
+            <p><mat-icon>done</mat-icon>Smart grids Technologies & Applications</p>
+            <p><mat-icon>done</mat-icon>Analysis and Design of Control Systems</p>
+            <p><mat-icon>done</mat-icon>Power Electronics and Drives</p>
+            <p><mat-icon>done</mat-icon>Power Electronics Systems and Applications</p>
+            <p><mat-icon>done</mat-icon>Power System Protection</p>
+            <p><mat-icon>done</mat-icon>Electric Vehicle Technology</p>
+            <p><mat-icon>done</mat-icon>Electro Technologies</p>
+            <p><mat-icon>done</mat-icon>Digital Communication</p>
+            <p><mat-icon>done</mat-icon>Semiconductor Technology</p>
+            <p><mat-icon>done</mat-icon>Transmission of Numerical Images</p>
           </div>
         </div>
+
+     
       </div>
     </div>
   </section>
+
+
+
   <!-- End Services Section -->
   <!-- ======= Counts Section ======= -->
   <section id="submissions" class="features">
