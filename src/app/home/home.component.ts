@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import {ParticlesConfig} from './particles-config';
-import {MatBottomSheet, MatBottomSheetRef} from '@angular/material/bottom-sheet';
 
 declare var particlesJS: any;
 
@@ -16,7 +15,6 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
     this.invokeParticles();
-    particlesJS.load('particles-js', 'particles.json', null);
   }
 
   public invokeParticles(): void {
