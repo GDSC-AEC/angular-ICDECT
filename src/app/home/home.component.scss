@@ -362,3 +362,12 @@ p.call_for_papers_para {
 //     color: rgba(236, 18, 207, 0.808);
 // 	}
 // }
+@media screen and (max-width:475px) {
+  .submission_img{
+    width: auto;
+    height: 19rem;
+  }
+}
+.img-fluid{
+  width: 100%;
+}
