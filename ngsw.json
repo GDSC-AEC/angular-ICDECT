@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1641805361397,
+  "timestamp": 1641895959535,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main.ca8250f06811a798.js",
+        "/main.8c12efb6d6656cb7.js",
         "/manifest.webmanifest",
         "/polyfills.3e07eee479dcc504.js",
         "/runtime.2cb9c0aa0a21f5a3.js",
@@ -80,7 +80,6 @@
         "/assets/img/clients/client-8.png",
         "/assets/img/counts-img.jpg",
         "/assets/img/cta-bg.jpg",
-        "/assets/img/favicon.png",
         "/assets/img/features.jpg",
         "/assets/img/hero-bg.jpg",
         "/assets/img/portfolio/portfolio-1.jpg",
@@ -289,7 +288,6 @@
     "/assets/img/clients/client-8.png": "1f63677e64097ed9e8a9469c35e6c5c3e81c437d",
     "/assets/img/counts-img.jpg": "df2f2dbfca0f34fd84b26fe2fe21be86c9ae4bd9",
     "/assets/img/cta-bg.jpg": "e8dd9281517b0ccb829cbb699360c7ae0c88b3cc",
-    "/assets/img/favicon.png": "3c62b134071e6abcdbb48133e35c150ef184401c",
     "/assets/img/features.jpg": "ce65f24152fba97bfd50f3282ebe39d0e64924bb",
     "/assets/img/hero-bg.jpg": "7337b805cbf101761448b5829f1445f4f4377677",
     "/assets/img/portfolio/portfolio-1.jpg": "9fb7c77399b534ef8c56a27127593c7fb1b585d3",
@@ -443,8 +441,8 @@
     "/assets/vendor/swiper/swiper-bundle.min.js": "af10043888f40ed2f58a28520e9b2bb82157487b",
     "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
     "/gallery.5e8809dfd65759ee.jpg": "2b4199495a1628c72423af1e5887730d71e7344b",
-    "/index.html": "98beea2514535963c8e07953b2aad43eecf441e2",
-    "/main.ca8250f06811a798.js": "adb71b4d7ba050571f036675d1f8394fed1aa565",
+    "/index.html": "6576664fe044ec7424761658b1495fe62657e62e",
+    "/main.8c12efb6d6656cb7.js": "6b390bd428c0a6c0af0e84f3fcd709311dc2496b",
     "/manifest.webmanifest": "bf4af47103f5b6fed47e585672fb2148ebe71991",
     "/polyfills.3e07eee479dcc504.js": "46c6e0dd4bb79d0849b7f2d80b646f69a6b10153",
     "/runtime.2cb9c0aa0a21f5a3.js": "d69990f5465a66a635bb5df6a7e2a1cb0c8cc396",
