@@ -109,7 +109,7 @@
 
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  margin: 32rem 0 0 0;
+  margin: 27rem 0 0 0;
 }
 
 @media screen and (max-width: 768px) {
@@ -370,4 +370,9 @@ p.call_for_papers_para {
 }
 .img-fluid{
   width: 100%;
+}
+.img_springer{
+  width: auto;
+  height: 5rem;
+  margin:1rem 0 0 0;
 }
