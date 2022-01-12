@@ -4,13 +4,26 @@
 #zero {
 	width: 100%;
 	height: 35vh;
-	background: url("https://images.unsplash.com/photo-1517817748493-49ec54a32465?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80") top center;
 	background-size: cover;
 	position: relative;
+	  background: linear-gradient(-45deg, #ee7752, #e73c7e, #0c9ed3);
+	  animation: gradient 10s ease infinite;
+	  background-size: 400% 400%;
   }
+  @keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
   #zero:before {
 	content: "";
-	background: rgba(0, 0, 0, 0.6);
+	// background: rgba(0, 0, 0, 0.6);
 	position: absolute;
 	bottom: 0;
 	top: 0;
