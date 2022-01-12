@@ -13,6 +13,7 @@ import { CallForPapersComponent } from './call-for-papers/call-for-papers.compon
 import { RegisterComponent } from './register/register.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { SubmissionsComponent } from './submissions/submissions.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { environment } from '../environments/environment';
     GalleryComponent,
     AboutComponent,
     CallForPapersComponent,
-    RegisterComponent
+    RegisterComponent,
+    SubmissionsComponent
   ],
   imports: [
     BrowserModule,
