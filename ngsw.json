@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1642004976162,
+  "timestamp": 1642006196347,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -463,7 +463,7 @@
     "/assets/vendor/swiper/swiper-bundle.min.css": "6db837e695d4cb51173a95c7c65c0e8a9d0cf9c1",
     "/assets/vendor/swiper/swiper-bundle.min.js": "af10043888f40ed2f58a28520e9b2bb82157487b",
     "/gallery.5e8809dfd65759ee.jpg": "2b4199495a1628c72423af1e5887730d71e7344b",
-    "/index.html": "bce4db7fabcb93538f07af1227dab379817c28c0",
+    "/index.html": "e274f8fbaed12819a1611527c76d43d82fac4c79",
     "/main.300006596a4659ae.js": "f001e5dc9a7adc5aa2138e2b9ffdbec8e3415059",
     "/manifest.webmanifest": "bf4af47103f5b6fed47e585672fb2148ebe71991",
     "/polyfills.3e07eee479dcc504.js": "46c6e0dd4bb79d0849b7f2d80b646f69a6b10153",
