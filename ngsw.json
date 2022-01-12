@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1641986862996,
+  "timestamp": 1642004976162,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -12,7 +12,7 @@
       },
       "urls": [
         "/index.html",
-        "/main.f87e58751bc56103.js",
+        "/main.300006596a4659ae.js",
         "/manifest.webmanifest",
         "/polyfills.3e07eee479dcc504.js",
         "/runtime.2cb9c0aa0a21f5a3.js",
@@ -117,6 +117,7 @@
         "/assets/img_more/date.svg",
         "/assets/img_more/down.png",
         "/assets/img_more/download.png",
+        "/assets/img_more/download.svg",
         "/assets/img_more/dude.jpg",
         "/assets/img_more/dude.png",
         "/assets/img_more/dude.svg",
@@ -336,6 +337,7 @@
     "/assets/img_more/date.svg": "dad15fea8214e8f40e4edc67f6605b2dc482884b",
     "/assets/img_more/down.png": "e335604412e6d413355f943c4dc9eda69a5653f3",
     "/assets/img_more/download.png": "b85efbaadd57eddbe6c33bb4d5b757cbaed39687",
+    "/assets/img_more/download.svg": "de0f50bb920e7d3ffafe6c2b0150b86c26fca25a",
     "/assets/img_more/dude.jpg": "2fa9807174830afb804086dcd9a34a308a60a49c",
     "/assets/img_more/dude.png": "e29886a5e202b441718252250c33271414c851e1",
     "/assets/img_more/dude.svg": "5018b4dff33b15077ab8f413024454f74fbaba58",
@@ -461,8 +463,8 @@
     "/assets/vendor/swiper/swiper-bundle.min.css": "6db837e695d4cb51173a95c7c65c0e8a9d0cf9c1",
     "/assets/vendor/swiper/swiper-bundle.min.js": "af10043888f40ed2f58a28520e9b2bb82157487b",
     "/gallery.5e8809dfd65759ee.jpg": "2b4199495a1628c72423af1e5887730d71e7344b",
-    "/index.html": "e71b66840fe14da992a12036b217fb2ab6809e8f",
-    "/main.f87e58751bc56103.js": "e7fd496e7405d763cffe5dfdb5df93bb0f7667bc",
+    "/index.html": "bce4db7fabcb93538f07af1227dab379817c28c0",
+    "/main.300006596a4659ae.js": "f001e5dc9a7adc5aa2138e2b9ffdbec8e3415059",
     "/manifest.webmanifest": "bf4af47103f5b6fed47e585672fb2148ebe71991",
     "/polyfills.3e07eee479dcc504.js": "46c6e0dd4bb79d0849b7f2d80b646f69a6b10153",
     "/runtime.2cb9c0aa0a21f5a3.js": "d69990f5465a66a635bb5df6a7e2a1cb0c8cc396",
