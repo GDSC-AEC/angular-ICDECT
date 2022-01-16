@@ -10,9 +10,15 @@ declare var particlesJS: any;
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
-    constructor() {}
-    
- 
+  name: string | undefined;
+  email: string | undefined;
+  subject: string | undefined;
+  message: string | undefined;
+
+
+  constructor() {}
+
+
 
   ngOnInit(): void {
     this.invokeParticles();
@@ -22,20 +28,26 @@ export class HomeComponent implements OnInit {
     particlesJS('particles-js', ParticlesConfig, function() {});
   }
 
-  public sendEmail() {
-    
+  sendEmail() {
     Email.send({
     Host: "smtp.gmail.com",
-    Username : "<sender’s email address>",
-    Password : "<email password>",
-    To : '<recipient’s email address>',
-    From : "<sender’s email address>",
-    Subject : "<email subject>",
-    Body : "<email body>",
+    Username : "ICDECT2022@gmail.com",
+    Password : "@2022AEC",
+    To : '19a91a05c2@aec.edu.in',
+    // ICDECT2022@aec.edu.in
+    From : this.email,
+    Subject : this.subject,
+    Body :
+    ` Name: ${this.name}, \n
+      Email: ${this.email}, \n
+      Message: ${this.message}.\n
+    `
+    ,
     }).then(
-      // message => alert("mail sent successfully")
-    
+      message => alert("mail sent successfully")
     );
+
+
   }
 
 }

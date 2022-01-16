@@ -4,6 +4,7 @@
   <div class="" data-aos="fade-up">
     <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
       <div class="text-center">
+        <!-- <img class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero" src="https://cdn.freebiesupply.com/images/large/2x/springer-logo-transparent.png"> -->
         <div class="shadow_power_2">
           <h1 class="color_gra">
             6<sup><span>th</span></sup> International Conference
@@ -20,7 +21,7 @@
         <!-- </div>  -->
 
         <div>
-          <img class="img_springer" src="assets/icons/spring.png" alt="" srcset="" 
+          <img class="img_springer" src="assets/icons/spring.png" alt="" srcset=""
           style="
 background: rgb(198,219,243);
 background: radial-gradient(circle, rgba(198,219,243,0.8155637254901961) 0%, rgba(198,219,243,0.7035189075630253) 70%, rgba(198,219,243,0) 100%);
@@ -690,7 +691,7 @@ border-bottom: 2px solid black;
                     <a href="assets/Brouchures/Brouchure(11).pdf" download>Download</a>
                   </td>
                 </tr>
-  
+
                 <tr>
                   <th scope="row">2</th>
                   <td>Registration form</td>
@@ -706,13 +707,13 @@ border-bottom: 2px solid black;
           </div>
         </div>
 
- 
+
       </div>
     </div>
   </section>
   <!-- End Counts Section -->
 
-  
+
   <!-- End Services Section -->
   <!-- ======= Counts Section ======= -->
   <section id="submissions" class="features">
@@ -746,7 +747,7 @@ border-bottom: 2px solid black;
   </section>
   <!-- End Counts Section -->
 
- 
+
 
   <!-- ======= Features Section ======= -->
   <section id="dates" class="features">
@@ -1239,21 +1240,28 @@ border-bottom: 2px solid black;
         </div>
 
         <div class="col-lg-8 mt-5 mt-lg-0">
-          <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+
+          <form action="" method="post" role="form" class="php-email-form">
             <div class="row">
+
               <div class="col-md-6 form-group">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required />
+                <input type="text" name="name" class="form-control" id="name" [(ngModel)]="name" placeholder="Your Name" required/>
               </div>
+
               <div class="col-md-6 form-group mt-3 mt-md-0">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required />
+                <input type="email" class="form-control" name="email" id="email" [(ngModel)]="email" placeholder="Your Email" required />
               </div>
+
             </div>
+
             <div class="form-group mt-3">
-              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required />
+              <input type="text" class="form-control" name="subject" id="subject" [(ngModel)]="subject" placeholder="Subject" required />
             </div>
+
             <div class="form-group mt-3">
-              <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+              <textarea class="form-control" name="message" rows="5" [(ngModel)]="message" placeholder="Message" required></textarea>
             </div>
+
             <div class="my-3">
               <div class="loading">Loading</div>
               <div class="error-message"></div>
@@ -1261,11 +1269,16 @@ border-bottom: 2px solid black;
                 Your message has been sent. Thank you!
               </div>
             </div>
+
             <div class="text-center">
-              <button type="submit" onclick="sendEmail">Send Message</button>
+              <button type="submit" (click)="sendEmail()">Send Message</button>
             </div>
+
           </form>
+
         </div>
+
+
       </div>
     </div>
   </section>
