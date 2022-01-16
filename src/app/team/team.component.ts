@@ -16,7 +16,7 @@ export class TeamComponent implements OnInit {
 
   async ngOnInit(){
 
-    async function data(url: any) 
+    async function data(url: any)
     {
       let response = fetch(url);
       console.log(response);
@@ -24,6 +24,7 @@ export class TeamComponent implements OnInit {
       console.log(data);
       return data
     }
+
     this.Odata = await data('https://dect-committee.herokuapp.com/organizing');
     this.Sdata = await data('https://dect-committee.herokuapp.com/steering');
     this.Idata = await data('https://dect-committee.herokuapp.com/international');
