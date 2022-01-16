@@ -14,7 +14,8 @@ export class AppComponent implements OnInit{
   showFiller = false;
   ngOnInit() {
 
-    
+
+
     let target = $('.NavBar');
     let width = screen.width;
     let gap = $('.gap');
@@ -29,7 +30,6 @@ export class AppComponent implements OnInit{
           })
       }
       else {
-  
           target.css({ "background-color": "rgba(0, 0, 0, 0.105)" })
       }
     });
@@ -38,7 +38,7 @@ export class AppComponent implements OnInit{
 
   }
 
-  
+
 
   onActivate(event:any) {
     window.scroll(0,0);
