@@ -61,8 +61,8 @@ export class HomeComponent implements OnInit {
           Host: "smtp.gmail.com",
           Username : "ICDECT2022@gmail.com",
           Password : "@2022AEC",
-          // To : 'ICDECT2022@aec.edu.in', // Production
-          To : '19a91a05c2@aec.edu.in', // Development
+          To : 'ICDECT2022@aec.edu.in', // Production
+          // To : '19a91a05c2@aec.edu.in', // Development
           From : this.email,
           Subject : this.subject,
           Body :
