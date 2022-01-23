@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1642966373890,
+  "timestamp": 1642966557036,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -12,7 +12,7 @@
       },
       "urls": [
         "/index.html",
-        "/main.a13928a719257b99.js",
+        "/main.55bce90c26b60424.js",
         "/manifest.webmanifest",
         "/polyfills.3e07eee479dcc504.js",
         "/runtime.2cb9c0aa0a21f5a3.js",
@@ -31,7 +31,7 @@
       "urls": [
         "/aditya.a8af3f80eb9b2986.jpeg",
         "/assets/Brouchures/Brouchure(11).pdf",
-        "/assets/Brouchures/brow.pdf",
+        "/assets/Brouchures/ConferenceBrochure.pdf",
         "/assets/Dect-Images/Image 1.jpeg",
         "/assets/Dect-Images/Image 10.jpeg",
         "/assets/Dect-Images/Image 11.jpeg",
@@ -258,7 +258,7 @@
   "hashTable": {
     "/aditya.a8af3f80eb9b2986.jpeg": "55d0f51c3caaf96f515a585b21e88bbb68081d89",
     "/assets/Brouchures/Brouchure(11).pdf": "49a7a6858a730b36130c44ed0d39dca9aa4034e8",
-    "/assets/Brouchures/brow.pdf": "f3b9ad705adc68d0cb3f78f6b365fec2c13e3769",
+    "/assets/Brouchures/ConferenceBrochure.pdf": "f3b9ad705adc68d0cb3f78f6b365fec2c13e3769",
     "/assets/Dect-Images/Image 1.jpeg": "e28035432e679ec6b4b365f3fa25184e744cb4b3",
     "/assets/Dect-Images/Image 10.jpeg": "00ec34c96cea2c283d79a3383afd2a7acdbba097",
     "/assets/Dect-Images/Image 11.jpeg": "9cf41dab95eb21ce1658546b8685403abcc6fdf2",
@@ -477,8 +477,8 @@
     "/assets/vendor/swiper/swiper-bundle.min.css": "6db837e695d4cb51173a95c7c65c0e8a9d0cf9c1",
     "/assets/vendor/swiper/swiper-bundle.min.js": "af10043888f40ed2f58a28520e9b2bb82157487b",
     "/gallery.5e8809dfd65759ee.jpg": "2b4199495a1628c72423af1e5887730d71e7344b",
-    "/index.html": "647ac70cb4cad757ed4eccb94be347d4466dbc33",
-    "/main.a13928a719257b99.js": "f7221ac0f9e9e18816e0f2d0e0c07bd59d29131b",
+    "/index.html": "083e8430dd3968cd3712335f0feb36edf7301655",
+    "/main.55bce90c26b60424.js": "75321a563ccdb053bc37c7e88a997234d62973c2",
     "/manifest.webmanifest": "bf4af47103f5b6fed47e585672fb2148ebe71991",
     "/polyfills.3e07eee479dcc504.js": "46c6e0dd4bb79d0849b7f2d80b646f69a6b10153",
     "/runtime.2cb9c0aa0a21f5a3.js": "d69990f5465a66a635bb5df6a7e2a1cb0c8cc396",
