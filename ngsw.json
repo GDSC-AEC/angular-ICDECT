@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1642966557036,
+  "timestamp": 1644334018082,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -12,7 +12,7 @@
       },
       "urls": [
         "/index.html",
-        "/main.55bce90c26b60424.js",
+        "/main.b4a12ec7ecc18513.js",
         "/manifest.webmanifest",
         "/polyfills.3e07eee479dcc504.js",
         "/runtime.2cb9c0aa0a21f5a3.js",
@@ -115,6 +115,7 @@
         "/assets/img_more/aec_circle.png",
         "/assets/img_more/comingsoon.svg",
         "/assets/img_more/conf.jpg",
+        "/assets/img_more/conff.svg",
         "/assets/img_more/date.svg",
         "/assets/img_more/down.png",
         "/assets/img_more/download.png",
@@ -342,6 +343,7 @@
     "/assets/img_more/aec_circle.png": "412bbb6f9dfa972297d581330ca35f66515009f1",
     "/assets/img_more/comingsoon.svg": "1f0b88519e2ba5ebd4b48dfc4b40fa34ddb27992",
     "/assets/img_more/conf.jpg": "9cfb39df9b880bf12c462e6e5c61f2e8cd8dd749",
+    "/assets/img_more/conff.svg": "1f047339fa877baa27c5d8b706ea37024ece982c",
     "/assets/img_more/date.svg": "dad15fea8214e8f40e4edc67f6605b2dc482884b",
     "/assets/img_more/down.png": "e335604412e6d413355f943c4dc9eda69a5653f3",
     "/assets/img_more/download.png": "b85efbaadd57eddbe6c33bb4d5b757cbaed39687",
@@ -477,8 +479,8 @@
     "/assets/vendor/swiper/swiper-bundle.min.css": "6db837e695d4cb51173a95c7c65c0e8a9d0cf9c1",
     "/assets/vendor/swiper/swiper-bundle.min.js": "af10043888f40ed2f58a28520e9b2bb82157487b",
     "/gallery.5e8809dfd65759ee.jpg": "2b4199495a1628c72423af1e5887730d71e7344b",
-    "/index.html": "083e8430dd3968cd3712335f0feb36edf7301655",
-    "/main.55bce90c26b60424.js": "75321a563ccdb053bc37c7e88a997234d62973c2",
+    "/index.html": "973a3532363917a52cbae3e11f8623a53354bf14",
+    "/main.b4a12ec7ecc18513.js": "643f538839711a6e43de4af149e94b7d1af14388",
     "/manifest.webmanifest": "bf4af47103f5b6fed47e585672fb2148ebe71991",
     "/polyfills.3e07eee479dcc504.js": "46c6e0dd4bb79d0849b7f2d80b646f69a6b10153",
     "/runtime.2cb9c0aa0a21f5a3.js": "d69990f5465a66a635bb5df6a7e2a1cb0c8cc396",
