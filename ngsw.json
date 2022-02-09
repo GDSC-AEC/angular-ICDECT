@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1644334018082,
+  "timestamp": 1644379479074,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -32,6 +32,7 @@
         "/aditya.a8af3f80eb9b2986.jpeg",
         "/assets/Brouchures/Brouchure(11).pdf",
         "/assets/Brouchures/ConferenceBrochure.pdf",
+        "/assets/Brouchures/ICDECT2022.pdf",
         "/assets/Dect-Images/Image 1.jpeg",
         "/assets/Dect-Images/Image 10.jpeg",
         "/assets/Dect-Images/Image 11.jpeg",
@@ -260,6 +261,7 @@
     "/aditya.a8af3f80eb9b2986.jpeg": "55d0f51c3caaf96f515a585b21e88bbb68081d89",
     "/assets/Brouchures/Brouchure(11).pdf": "49a7a6858a730b36130c44ed0d39dca9aa4034e8",
     "/assets/Brouchures/ConferenceBrochure.pdf": "f3b9ad705adc68d0cb3f78f6b365fec2c13e3769",
+    "/assets/Brouchures/ICDECT2022.pdf": "1d4c6fc29ca38a000dcf53441e1a876deaca7b54",
     "/assets/Dect-Images/Image 1.jpeg": "e28035432e679ec6b4b365f3fa25184e744cb4b3",
     "/assets/Dect-Images/Image 10.jpeg": "00ec34c96cea2c283d79a3383afd2a7acdbba097",
     "/assets/Dect-Images/Image 11.jpeg": "9cf41dab95eb21ce1658546b8685403abcc6fdf2",
