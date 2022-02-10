@@ -8,43 +8,37 @@ import { SubmissionsComponent } from './submissions/submissions.component';
 import { TeamComponent } from './team/team.component';
 
 const routes: Routes = [
-  
+
   {
     path: '',
-    children: 
-    [
-      {
-        path: '',
-        component: HomeComponent,
-        data: { animationState: 'One' }
-      },
-      {
-        path: 'about/:id', 
-        component: AboutComponent,
-        data: { animationState: 'Two' },
-      children: []
-      },
-      {
-        path: 'team', 
-        component: TeamComponent,
-        data: { animationState: 'Three' },
-      },
-      {
-        path: 'gallery',
-        component: GalleryComponent,
-        data: { animationState: 'Four' },
-      },
-      {
-        path:'register',
-        component:RegisterComponent,
-        data: { animationState: 'Five' },
-      },
-      {
-        path:'submissions',
-        component:SubmissionsComponent,
-        data: { animationState: 'Five' },
-      }
-    ]
+    component: HomeComponent,
+    // data: { animationState: 'One' }
+  },
+  {
+    path: 'about/:id',
+    component: AboutComponent,
+    // data: { animationState: 'Two' },
+  children: []
+  },
+  {
+    path: 'team',
+    component: TeamComponent,
+    // data: { animationState: 'Three' },
+  },
+  {
+    path: 'gallery',
+    component: GalleryComponent,
+    // data: { animationState: 'Four' },
+  },
+  {
+    path:'register',
+    component:RegisterComponent,
+    // data: { animationState: 'Five' },
+  },
+  {
+    path:'submissions',
+    component:SubmissionsComponent,
+    // data: { animationState: 'Five' },
   }
 
 ];
