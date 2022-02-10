@@ -13,6 +13,7 @@ export class TeamComponent implements OnInit {
   Sdata:any;
   Idata:any;
   Ndata:any;
+  Tdata:any;
 
   async ngOnInit(){
 
@@ -26,6 +27,7 @@ export class TeamComponent implements OnInit {
     }
 
     this.Odata = await data('https://dect-committee.herokuapp.com/organizing');
+    this.Tdata = await data('https://dect-committee.herokuapp.com/technical');
     this.Sdata = await data('https://dect-committee.herokuapp.com/steering');
     this.Idata = await data('https://dect-committee.herokuapp.com/international');
     this.Ndata = await data('https://dect-committee.herokuapp.com/national');
