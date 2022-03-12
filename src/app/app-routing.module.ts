@@ -4,6 +4,7 @@ import { AboutComponent } from './about/about.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { HomeComponent } from './home/home.component';
 import { RegisterComponent } from './register/register.component';
+import { SpecialsessionsComponent } from './specialsessions/specialsessions.component';
 import { SubmissionsComponent } from './submissions/submissions.component';
 import { TeamComponent } from './team/team.component';
 
@@ -39,6 +40,9 @@ const routes: Routes = [
     path:'submissions',
     component:SubmissionsComponent,
     // data: { animationState: 'Five' },
+  },{
+    path: 'specialsessions',
+    component: SpecialsessionsComponent 
   }
 
 ];

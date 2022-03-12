@@ -16,6 +16,7 @@ import { environment } from '../environments/environment';
 import { SubmissionsComponent } from './submissions/submissions.component';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
+import { SpecialsessionsComponent } from './specialsessions/specialsessions.component';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { RouterModule } from '@angular/router';
     AboutComponent,
     CallForPapersComponent,
     RegisterComponent,
-    SubmissionsComponent
+    SubmissionsComponent,
+    SpecialsessionsComponent
   ],
   imports: [
     BrowserModule,

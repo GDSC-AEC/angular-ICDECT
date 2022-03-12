@@ -19,6 +19,7 @@
       <button class="shadow_power_3" mat-button onclick="location.href='#'" >Home</button>
       <button class="shadow_power_3" mat-button [matMenuTriggerFor]="about">About</button>
       <button class="shadow_power_3" mat-button onclick="location.href='#call_for_papers'">Call For Papers</button>
+      <button class="shadow_power_3" mat-button [routerLink]="['/specialsessions']">Special Sessions</button>
       <button class="shadow_power_3" mat-button onclick="location.href='#submissions'" >Submissions</button>
       <button class="shadow_power_3" mat-button [routerLink]="['/register']">Registration</button>
       <button class="shadow_power_3" mat-button onclick="location.href='#dates'" >Dates</button>
@@ -37,6 +38,7 @@
         <li><a href="/about/#department">About Department</a></li>
       </ul> -->
       <button mat-menu-item onclick="location.href='#call_for_papers'">Call For Papers</button>
+      <button mat-menu-item [routerLink]="['/specialsessions']">Special Sessions</button>
       <button mat-menu-item [routerLink]="['/submissions']" >Submissions</button>
       <button mat-menu-item [routerLink]="['/register']">Registration</button>
       <button mat-menu-item onclick="location.href='#dates'" >Dates</button>

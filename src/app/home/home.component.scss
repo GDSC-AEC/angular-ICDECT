@@ -23,7 +23,53 @@
   text-align: center;
   // padding: 15px;
 }
+#hero .container {
+  position: relative;
+  padding-top: 74px;
+  text-align: center;
+}
+@media (min-width: 1024px) {
+  #hero {
+    background-attachment: fixed;
+  }
+}
+@media (max-width: 768px) {
+  #hero {
+    height: auto;
+  }
+  #hero h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #hero h2 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
 
+
+#hero h1 {
+  margin: 0;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 40px;
+  /* color:gold; */
+  font-family: "Poppins", sans-serif;
+  /* font-family: Georgia, sans-serif; */
+}
+#hero h1 span {
+  color:#ffc451;
+  margin: 0;
+  /* font-size: 4rem; */
+  font-weight: 700;
+  line-height: 40px;
+  font-family: "Poppins", sans-serif;
+}
+#hero h3 {
+  color: cornsilk;
+  margin: 10px 0 0 0;
+  font-size: 24px;
+}
 
 .column {
   float: left;
@@ -440,3 +486,6 @@ header{
 	border-left:1px solid rgba(255,255,255,0.5);
 	border-radius: 30px;
 }
+
+
+
